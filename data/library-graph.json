@@ -1,0 +1,534 @@
+{
+ "resolved": 348,
+ "library_dois": 366,
+ "core": [
+  {
+   "id": "W2756283300",
+   "title": "Conceptualizing the circular economy: An analysis of 114 definitions",
+   "year": 2017,
+   "cited_in_library": 62
+  },
+  {
+   "id": "W2565277564",
+   "title": "The Circular Economy – A new sustainability paradigm?",
+   "year": 2016,
+   "cited_in_library": 58
+  },
+  {
+   "id": "W1732240353",
+   "title": "A review on circular economy: the expected transition to a balanced interplay of environmental and economic systems",
+   "year": 2015,
+   "cited_in_library": 53
+  },
+  {
+   "id": "W2769483102",
+   "title": "The circular economy: New or Refurbished as CE 3.0? — Exploring Controversies in the Conceptualization of the Circular Economy through a Focus on History and Resource Value Retention Options",
+   "year": 2017,
+   "cited_in_library": 24
+  },
+  {
+   "id": "W4250034186",
+   "title": "Circular cities",
+   "year": 2019,
+   "cited_in_library": 24
+  },
+  {
+   "id": "W2778700599",
+   "title": "Circular economy as an essentially contested concept",
+   "year": 2017,
+   "cited_in_library": 22
+  },
+  {
+   "id": "W2613828822",
+   "title": "The Emergence of Circular Economy: A New Framing Around Prolonging Resource Productivity",
+   "year": 2017,
+   "cited_in_library": 20
+  },
+  {
+   "id": "W2964311387",
+   "title": "Circular cities: exploring local government strategies to facilitate a circular economy",
+   "year": 2019,
+   "cited_in_library": 20
+  },
+  {
+   "id": "W2805443795",
+   "title": "Circular economy in cities: Reviewing how environmental research aligns with local practices",
+   "year": 2018,
+   "cited_in_library": 18
+  },
+  {
+   "id": "W3037473845",
+   "title": "A typology of circular economy discourses: Navigating the diverse visions of a contested paradigm",
+   "year": 2020,
+   "cited_in_library": 18
+  },
+  {
+   "id": "W2971442362",
+   "title": "Circular Area Design or Circular Area Functioning? A Discourse-Institutional Analysis of Circular Area Developments in Amsterdam and Utrecht, The Netherlands",
+   "year": 2019,
+   "cited_in_library": 16
+  },
+  {
+   "id": "W2908699558",
+   "title": "Circular Cities: Challenges to Implementing Looping Actions",
+   "year": 2019,
+   "cited_in_library": 15
+  },
+  {
+   "id": "W2953590317",
+   "title": "Circular Economy Strategies in Eight Historic Port Cities: Criteria and Indicators Towards a Circular City Assessment Framework",
+   "year": 2019,
+   "cited_in_library": 15
+  },
+  {
+   "id": "W4233794937",
+   "title": "Circular Cities: A Revolution in Urban Sustainability",
+   "year": 2021,
+   "cited_in_library": 15
+  },
+  {
+   "id": "W2147828940",
+   "title": "The Changing Metabolism of Cities",
+   "year": 2007,
+   "cited_in_library": 13
+  },
+  {
+   "id": "W3119301970",
+   "title": "Towards a territorial definition of a circular economy: exploring the role of territorial factors in closed-loop systems",
+   "year": 2021,
+   "cited_in_library": 13
+  },
+  {
+   "id": "W2070488366",
+   "title": "Transition Management for Sustainable Development: A Prescriptive, Complexity‐Based Governance Framework",
+   "year": 2009,
+   "cited_in_library": 13
+  },
+  {
+   "id": "W3025886403",
+   "title": "Circular futures: What Will They Look Like?",
+   "year": 2020,
+   "cited_in_library": 12
+  },
+  {
+   "id": "W2264050319",
+   "title": "Designing the Business Models for Circular Economy—Towards the Conceptual Framework",
+   "year": 2016,
+   "cited_in_library": 11
+  },
+  {
+   "id": "W1978731410",
+   "title": "The Circular Economy: A New Development Strategy in China",
+   "year": 2006,
+   "cited_in_library": 11
+  },
+  {
+   "id": "W4296148679",
+   "title": "The Metabolism of Cities",
+   "year": 1965,
+   "cited_in_library": 10
+  },
+  {
+   "id": "W2145996143",
+   "title": "I NDUSTRIAL S YMBIOSIS : Literature and Taxonomy",
+   "year": 2000,
+   "cited_in_library": 10
+  },
+  {
+   "id": "W2799571143",
+   "title": "Barriers to the Circular Economy: Evidence From the European Union (EU)",
+   "year": 2018,
+   "cited_in_library": 9
+  },
+  {
+   "id": "W2008251417",
+   "title": "A Ladder Of Citizen Participation",
+   "year": 1969,
+   "cited_in_library": 9
+  },
+  {
+   "id": "W3044613039",
+   "title": "The role of spatial planning in transitioning to circular urban development",
+   "year": 2020,
+   "cited_in_library": 9
+  }
+ ],
+ "gaps": [
+  {
+   "id": "W2607300357",
+   "doi": "10.1016/j.eist.2017.03.002",
+   "title": "Circular Cities: Mapping Six Cities in Transition",
+   "year": 2017,
+   "authors": [
+    "Sharon M. Prendeville",
+    "E.L.G. Cherim",
+    "Nancy M. P. Bocken"
+   ],
+   "venue": "Environmental Innovation and Societal Transitions",
+   "cited_in_library": 44,
+   "cited_by": 627
+  },
+  {
+   "id": "W2736219668",
+   "doi": "10.1016/j.ecolecon.2017.06.041",
+   "title": "Circular Economy: The Concept and its Limitations",
+   "year": 2017,
+   "authors": [
+    "Jaana Korhonen",
+    "Antero Honkasalo",
+    "Jyri Seppälä"
+   ],
+   "venue": "Ecological Economics",
+   "cited_in_library": 36,
+   "cited_by": 5582
+  },
+  {
+   "id": "W1622878345",
+   "doi": "10.1007/s10551-015-2693-2",
+   "title": "The Circular Economy: An Interdisciplinary Exploration of the Concept and Application in a Global Context",
+   "year": 2015,
+   "authors": [
+    "Alan Murray",
+    "Keith Ronald Skene",
+    "Kathryn Haynes"
+   ],
+   "venue": "Journal of Business Ethics",
+   "cited_in_library": 25,
+   "cited_by": 4686
+  },
+  {
+   "id": "W2609161541",
+   "doi": "10.1111/jiec.12598",
+   "title": "Coming Full Circle: Why Social and Institutional Dimensions Matter for the Circular Economy",
+   "year": 2017,
+   "authors": [
+    "Vincent Moreau",
+    "Marlyne Sahakian",
+    "Pascal van Griethuysen"
+   ],
+   "venue": "Journal of Industrial Ecology",
+   "cited_in_library": 25,
+   "cited_by": 680
+  },
+  {
+   "id": "W2216357226",
+   "doi": "10.1016/j.jclepro.2015.12.042",
+   "title": "Towards circular economy implementation: a comprehensive review in context of manufacturing industry",
+   "year": 2015,
+   "authors": [
+    "Michael Lieder",
+    "Amir Rashid"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "cited_in_library": 23,
+   "cited_by": 3689
+  },
+  {
+   "id": "W2051977037",
+   "doi": "10.1038/scientificamerican0989-144",
+   "title": "Strategies for Manufacturing",
+   "year": 1989,
+   "authors": [
+    "Robert A. Frosch",
+    "Nicholas E. Gallopoulos"
+   ],
+   "venue": "Scientific American",
+   "cited_in_library": 20,
+   "cited_by": 2685
+  },
+  {
+   "id": "W2802976171",
+   "doi": "10.3390/su10051310",
+   "title": "Interpreting Circularity. Circular City Representations Concealing Transition Drivers",
+   "year": 2018,
+   "authors": [
+    "Julie Marin",
+    "Bruno De MEULDER"
+   ],
+   "venue": "Sustainability",
+   "cited_in_library": 19,
+   "cited_by": 179
+  },
+  {
+   "id": "W2342540942",
+   "doi": "10.1080/21681015.2016.1172124",
+   "title": "Product design and business model strategies for a circular economy",
+   "year": 2016,
+   "authors": [
+    "Nancy M. P. Bocken",
+    "I.C. de Pauw",
+    "Conny A. Bakker"
+   ],
+   "venue": "Journal of Industrial and Production Engineering",
+   "cited_in_library": 18,
+   "cited_by": 6037
+  },
+  {
+   "id": "W2983907633",
+   "doi": "10.3390/su11226253",
+   "title": "Moving Towards the Circular Economy/City Model: Which Tools for Operationalizing This Model?",
+   "year": 2019,
+   "authors": [
+    "Luigi Fusco Girard",
+    "Francesca Nocca"
+   ],
+   "venue": "Sustainability",
+   "cited_in_library": 17,
+   "cited_by": 215
+  },
+  {
+   "id": "W1803673662",
+   "doi": "10.1111/jiec.12244",
+   "title": "How Circular is the Global Economy?: An Assessment of Material Flows, Waste Production, and Recycling in the European Union and the World in 2005",
+   "year": 2015,
+   "authors": [
+    "Willi Haas",
+    "Fridolin Krausmann",
+    "Dominik Wiedenhofer"
+   ],
+   "venue": "Journal of Industrial Ecology",
+   "cited_in_library": 16,
+   "cited_by": 1536
+  },
+  {
+   "id": "W2082912726",
+   "doi": "10.1080/03085147.2015.1013353",
+   "title": "Interrogating the circular economy: the moral economy of resource recovery in the EU",
+   "year": 2015,
+   "authors": [
+    "Nicky Gregson",
+    "Mike Crang",
+    "Sara Fuller"
+   ],
+   "venue": "Economy and Society",
+   "cited_in_library": 16,
+   "cited_by": 968
+  },
+  {
+   "id": "W3015876956",
+   "doi": "10.1016/j.scs.2020.102143",
+   "title": "Towards circular cities—Conceptualizing core aspects",
+   "year": 2020,
+   "authors": [
+    "Satu Paiho",
+    "Elina Mäki",
+    "Nina Wessberg"
+   ],
+   "venue": "Sustainable Cities and Society",
+   "cited_in_library": 16,
+   "cited_by": 270
+  },
+  {
+   "id": "W2785395361",
+   "doi": "",
+   "title": "Circular Economy: Measuring Innovation in the Product Chain",
+   "year": 2017,
+   "authors": [
+    "José Potting",
+    "Marko P. Hekkert",
+    "Ernst Worrell"
+   ],
+   "venue": "Utrecht University Repository (Utrecht University)",
+   "cited_in_library": 16,
+   "cited_by": 2301
+  },
+  {
+   "id": "W2099330597",
+   "doi": "10.1016/s0048-7333(02)00062-8",
+   "title": "Technological transitions as evolutionary reconfiguration processes: a multi-level perspective and a case-study",
+   "year": 2002,
+   "authors": [
+    "Frank Willem Geels"
+   ],
+   "venue": "Research Policy",
+   "cited_in_library": 15,
+   "cited_by": 10075
+  },
+  {
+   "id": "W2941995832",
+   "doi": "10.1016/j.jclepro.2019.04.193",
+   "title": "Exploring circular economy imaginaries in European cities: A research agenda for the governance of urban sustainability transitions",
+   "year": 2019,
+   "authors": [
+    "Chiara Farné Fratini",
+    "Susse Georg",
+    "Michael Søgaard Jørgensen"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "cited_in_library": 15,
+   "cited_by": 313
+  },
+  {
+   "id": "W2308508135",
+   "doi": "10.1038/531435a",
+   "title": "The circular economy",
+   "year": 2016,
+   "authors": [
+    "Walter R. Stahel"
+   ],
+   "venue": "Nature",
+   "cited_in_library": 14,
+   "cited_by": 3588
+  },
+  {
+   "id": "W2772761593",
+   "doi": "10.1016/j.jclepro.2017.12.112",
+   "title": "How do scholars approach the circular economy? A systematic literature review",
+   "year": 2017,
+   "authors": [
+    "Roberto Merli",
+    "Michele Preziosi",
+    "Alessia Acampora"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "cited_in_library": 14,
+   "cited_by": 1693
+  },
+  {
+   "id": "W249670088",
+   "doi": "10.5860/choice.40-0914",
+   "title": "Cradle to cradle: remaking the way we make things",
+   "year": 2002,
+   "authors": [
+    "Michael Braungart",
+    "W. F. McDonough"
+   ],
+   "venue": "Choice Reviews Online",
+   "cited_in_library": 14,
+   "cited_by": 3811
+  },
+  {
+   "id": "W2768891858",
+   "doi": "10.1016/j.jclepro.2017.11.064",
+   "title": "The circular economy umbrella: Trends and gaps on integrating pathways",
+   "year": 2017,
+   "authors": [
+    "Aline Sacchi Homrich",
+    "Graziela Darla Araújo Galvão",
+    "Lorena Gamboa Abadia"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "cited_in_library": 13,
+   "cited_by": 1046
+  },
+  {
+   "id": "W2463138702",
+   "doi": "10.1016/j.futures.2016.05.012",
+   "title": "Diversifying and de-growing the circular economy: Radical social transformation in a resource-scarce world",
+   "year": 2016,
+   "authors": [
+    "Kersty Hobson",
+    "Nicholas Lynch"
+   ],
+   "venue": "Futures",
+   "cited_in_library": 13,
+   "cited_by": 671
+  },
+  {
+   "id": "W2905928474",
+   "doi": "10.1016/j.ecolecon.2018.12.012",
+   "title": "The Circular Economy: Swings and Roundabouts?",
+   "year": 2018,
+   "authors": [
+    "N. R. Millar",
+    "Eoin McLaughlin",
+    "Tobias Börger"
+   ],
+   "venue": "Ecological Economics",
+   "cited_in_library": 13,
+   "cited_by": 609
+  },
+  {
+   "id": "W2072869665",
+   "doi": "10.1177/0309132514566342",
+   "title": "Closing the loop or squaring the circle? Locating generative spaces for the circular economy",
+   "year": 2015,
+   "authors": [
+    "Kersty Hobson"
+   ],
+   "venue": "Progress in Human Geography",
+   "cited_in_library": 12,
+   "cited_by": 461
+  },
+  {
+   "id": "W1515810707",
+   "doi": "",
+   "title": "The Constitution of Society. Outline of the Theory of Structuration",
+   "year": 1984,
+   "authors": [
+    "Anthony Giddens"
+   ],
+   "venue": null,
+   "cited_in_library": 11,
+   "cited_by": 28624
+  },
+  {
+   "id": "W1966481002",
+   "doi": "10.1016/j.jclepro.2013.11.039",
+   "title": "A literature and practice review to develop sustainable business model archetypes",
+   "year": 2013,
+   "authors": [
+    "Nancy M. P. Bocken",
+    "Samuel W. Short",
+    "Padmakshi Rana"
+   ],
+   "venue": "Journal of Cleaner Production",
+   "cited_in_library": 11,
+   "cited_by": 6295
+  },
+  {
+   "id": "W2936802452",
+   "doi": "10.1016/j.resconrec.2019.03.045",
+   "title": "Circular economy indicators: What do they measure?",
+   "year": 2019,
+   "authors": [
+    "Gustavo Moraga",
+    "Sophie Huysveld",
+    "Fabrice Mathieux"
+   ],
+   "venue": "Resources Conservation and Recycling",
+   "cited_in_library": 11,
+   "cited_by": 1568
+  },
+  {
+   "id": "W2611475109",
+   "doi": "10.1111/jiec.12597",
+   "title": "Circular Economy Policies in China and Europe",
+   "year": 2017,
+   "authors": [
+    "Will McDowall",
+    "Yong Geng",
+    "Beijia Huang"
+   ],
+   "venue": "Journal of Industrial Ecology",
+   "cited_in_library": 11,
+   "cited_by": 857
+  },
+  {
+   "id": "W2980752769",
+   "doi": "10.1016/j.resconrec.2019.104507",
+   "title": "Circular economy strategies for adaptive reuse of cultural heritage buildings to reduce environmental impacts",
+   "year": 2019,
+   "authors": [
+    "Gillian Foster"
+   ],
+   "venue": "Resources Conservation and Recycling",
+   "cited_in_library": 11,
+   "cited_by": 770
+  },
+  {
+   "id": "W3158552758",
+   "doi": "10.3390/su13094759",
+   "title": "Indicators for Ex-Post Evaluation of Cultural Heritage Adaptive Reuse Impacts in the Perspective of the Circular Economy",
+   "year": 2021,
+   "authors": [
+    "Martina Bosone",
+    "Pasquale De Toro",
+    "Luigi Fusco Girard"
+   ],
+   "venue": "Sustainability",
+   "cited_in_library": 11,
+   "cited_by": 106
+  }
+ ]
+}
