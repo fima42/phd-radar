@@ -6,12 +6,14 @@ research: Circular Area Development (PhD, TU Delft, ACT! WP4)
 
 streams:
   academia: {active: true}
-  policy:   {active: false}   # next build step (Open Raadsinformatie, officielebekendmakingen, Tweede Kamer, EUR-Lex)
-  society:  {active: false}   # next build step (trade press, news, events)
+  policy:   {active: true}
+  society:  {active: true}
 
 window_days: 60            # look back this far for new publications; seen.csv prevents repeats
 min_score_report: 3        # 1 to 5; items below go to "Screened out" with a reason, never dropped silently
-max_items_weekly: 25
+max_items_weekly: 25        # academia
+max_items_policy: 20
+max_items_society: 20
 
 corpus_window_end: 2026-12-31   # until then the policy stream lists "Corpus candidates" (found_via) for the SQ2 corpus
 
@@ -134,3 +136,53 @@ journals:   # table-of-contents watch (OpenAlex source search by name)
   - Building and Environment
   - Sustainability
   - European Journal of Spatial Development
+
+# ---------- policy stream ----------
+policy:
+  window_days: 45
+  levels: [EU, NAT, PRV, REG, MUN, AREA]          # same codes as the SQ2 corpus
+  municipalities: [Rotterdam, Amsterdam, Tilburg]
+  provinces: [Zuid-Holland, Noord-Holland, Noord-Brabant]
+  regions: ["Metropoolregio Rotterdam Den Haag", "Metropoolregio Amsterdam", "Regio Hart van Brabant"]
+  national_issuers: ["Ministerie van Infrastructuur en Waterstaat", "Ministerie van Volkshuisvesting en Ruimtelijke Ordening", "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties", "Rijkswaterstaat", "PBL Planbureau voor de Leefomgeving", "Raad voor de leefomgeving en infrastructuur"]
+  sources:
+    open_raadsinformatie: {api: "https://api.openraadsinformatie.nl/v1/elastic/", docs: "https://docs.openraadsinformatie.nl/"}
+    officiele_publicaties: {sru: "https://repository.overheid.nl/sru", collection: officielepublicaties}
+    tweede_kamer: {odata: "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/"}
+    eur_lex: {search: "web"}                     # no simple API; WebSearch site:eur-lex.europa.eu
+  case_sites:
+    NL-000: ["m4hrotterdam.nl", "rotterdam.nl"]
+    NL-001: ["marineterrein.nl", "amsterdam.nl"]
+    NL-002: ["tilburg.nl"]
+
+# ---------- society stream ----------
+society:
+  window_days: 21
+  outlets:                                         # searched with WebSearch site: queries; add or remove freely
+    - gebiedsontwikkeling.nu
+    - cobouw.nl
+    - stadszaken.nl
+    - romagazine.nl
+    - duurzaamgebouwd.nl
+    - circulairondernemen.nl
+    - platformcb23.nl
+    - pbl.nl
+    - rli.nl
+    - circle-economy.com
+    - nos.nl
+    - ad.nl
+    - parool.nl
+    - omroepbrabant.nl
+    - nrc.nl
+    - fd.nl
+  linkedin: true                                   # public, indexed posts only (site:linkedin.com/posts)
+  events: [pakhuisdezwijger.nl, tudelft.nl, "circulaire bouweconomie event"]
+
+# live feeds for the Obsidian radar page (fetched in Obsidian, not by the weekly run); dead feeds are listed as "not loaded"
+live_feeds:
+  - {name: Rijksoverheid CE, url: "https://feeds.rijksoverheid.nl/onderwerpen/circulaire-economie/nieuws.rss", color: "#E8C84A"}
+  - {name: Gebiedsontwikkeling.nu, url: "https://www.gebiedsontwikkeling.nu/rss", color: "#00A6D6"}
+  - {name: Cobouw, url: "https://www.cobouw.nl/rss", color: "#E8742B"}
+  - {name: Stadszaken, url: "https://www.stadszaken.nl/rss", color: "#6fbf8e"}
+  - {name: ROmagazine, url: "https://www.romagazine.nl/rss", color: "#a28ae5"}
+  - {name: Duurzaam Gebouwd, url: "https://www.duurzaamgebouwd.nl/rss", color: "#5FD4E8"}

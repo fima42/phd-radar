@@ -18,7 +18,7 @@ Read `instructions/00-rules.md` and `config/radar.yml` first.
 3. For each stream with `active: true` in the config, start one subagent with the Agent tool, giving it the stream's instruction file (`instructions/<stream>.md`), the week, whether it is a monthly run, and the rules file. Run the subagents one after another (they share the OpenAlex and Zotero budgets). If the Agent tool is not available, carry out the stream instructions yourself, one stream at a time.
 4. Each subagent returns a JSON list of items (format in its instruction file). Merge them:
    - remove duplicates across streams (same DOI, URL or near-identical title); keep one item and list both streams;
-   - cap the reported list at `max_items_weekly`, highest score first; the rest goes to "Screened out" with the reason "over weekly cap".
+   - cap each stream at its own limit (`max_items_weekly` for academia, `max_items_policy`, `max_items_society`), highest score first; the rest goes to "Screened out" with the reason "over weekly cap". Corpus candidates are never capped.
 5. Write `radar/<week>.md` (format below), `radar/items/<week>.json` and a copy at `radar/items.json` (all items of this week, reported and screened out, with every field the subagents returned plus `week`; the Obsidian radar page reads these files, so keep the field names exactly as in the stream return formats).
 6. Append every reported and screened-out item to `data/seen.csv` (`id,stream,week,status,title`; `id` = DOI, else URL, else OpenAlex ID; `status` = reported / screened_out / in_library). Never remove rows; the owner may change `status` to `rejected` or `added`.
 7. Commit and push as the rules describe.
@@ -57,6 +57,23 @@ counts: {reported: 0, screened_out: 0, in_library: 0}
 <details><summary><n> items</summary>
 - <Title> | score <n> | <reason>
 </details>
+
+## Policy
+### New documents
+- **<Title>** (<issuer>, <level>, <date>, <doc_type>) | score <n>/5 | <case> | <SQ>
+  <one or two sentences, own words>
+  Source: <ORI / SRU / TK / web> | [Document](<url>)
+
+### Corpus candidates (until 31 Dec 2026)
+- **<Title>** (<issuer>, <level>, <date>) | <case> | found via <found_via> | [Document](<url>)
+
+## Society
+### News
+- **<Headline>** (<source>, <date>) | score <n>/5 | <case>
+  <one or two sentences, own words> | [Article](<url>)
+
+### Events
+- <event_date> | **<Title>** (<organiser>) | [Info](<url>)
 
 ## Run notes
 <queries run, period covered, API problems, limitations: OpenAlex coverage and missing abstracts for some publishers>
