@@ -156,6 +156,17 @@ policy:
     officiele_publicaties: {sru: "https://repository.overheid.nl/sru", collection: officielepublicaties}
     tweede_kamer: {odata: "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/"}
     eur_lex: {search: "web"}                     # no simple API; WebSearch site:eur-lex.europa.eu
+  eu:
+    sources: [environment.ec.europa.eu, "ec.europa.eu/info/law/better-regulation (Have your say)", eur-lex.europa.eu, "oeil.secure.europarl.europa.eu (Legislative Observatory)", "europarl.europa.eu (Think Tank, committees ENVI, ITRE, IMCO)", "data.consilium.europa.eu", "consilium.europa.eu (press)", "eesc.europa.eu", "cor.europa.eu", "circulareconomy.europa.eu (ECESP)", "single-market-economy.ec.europa.eu (construction)"]
+    dossiers:              # tracked every run in data/eu-dossiers.json; add or remove freely
+      - {id: CEA, name: "Circular Economy Act", why: "single market for secondary raw materials; circular public procurement of works"}
+      - {id: CPR, name: "Construction Products Regulation (EU) 2024/3110: delegated and implementing acts", why: "reuse and remanufactured construction products, digital product passport"}
+      - {id: WFD, name: "Waste Framework Directive: construction and demolition waste, end-of-waste criteria", why: "status of released C&D material"}
+      - {id: EPBD, name: "Energy Performance of Buildings Directive: life-cycle GWP and renovation", why: "whole-life carbon pushes reuse"}
+      - {id: PPD, name: "Public procurement directives revision", why: "circular criteria in public works"}
+      - {id: CRMA, name: "Critical Raw Materials Act: recycling and secondary sources", why: "urban mining framing"}
+      - {id: TAX, name: "EU Taxonomy: construction and real estate circular economy criteria", why: "finance of circular area development"}
+      - {id: LEVELS, name: "Level(s) and EU built environment / construction strategy", why: "common indicators for circular buildings"}
   case_sites:
     NL-000: ["m4hrotterdam.nl", "rotterdam.nl"]
     NL-001: ["marineterrein.nl", "amsterdam.nl"]

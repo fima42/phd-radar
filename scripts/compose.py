@@ -82,6 +82,10 @@ def note(week, items, counts, cfg):
         f"  {i.get('summary','')}", f"  Source: {i.get('source','')} | {links(i)}"]] + [""]
     if sec("policy", "corpus_candidate"):
         L += [f"### Corpus candidates (until {cfg.get('corpus_window_end','')})"] + [f"- **{i.get('title','')}** ({i.get('issuer','')}, {i.get('level','')}, {i.get('date','')}) | {i.get('case','')} | found via {i.get('found_via','')} | {links(i)}" for i in sec("policy", "corpus_candidate")] + [""]
+    eu = load_json(os.path.join(DATA, "eu-dossiers.json"), {}) or {}
+    if eu:
+        L += ["### EU dossiers", "| Dossier | Stage | Last step | Next step |", "|---|---|---|---|"]
+        L += [f"| {d.get('name', k)} | {d.get('stage', '')} ({d.get('stage_date', '')}) | {d.get('last_event', '')} ({d.get('last_event_date', '')}) | {d.get('next_step', '')} |" for k, d in eu.items()] + [""]
     L += ["## Society", "### News"] + [x for i in sec("society", "news") for x in [
         f"- **{i.get('title','')}** ({i.get('source','')}, {i.get('country','')}, {i.get('date','')}) | score {i.get('score','?')}/5 | {i.get('layer','')}",
         f"  {i.get('summary','')} | {links(i)}"]] + [""]

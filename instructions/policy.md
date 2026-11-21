@@ -14,9 +14,14 @@ Council agenda items, motions, letters, decisions, visions, programmes, monitors
 1. **Open Raadsinformatie** (municipal and provincial council documents): read the API docs at `https://docs.openraadsinformatie.nl/` if the query format is unclear, then search the API (`https://api.openraadsinformatie.nl/v1/elastic/`) with curl for the three municipalities and three provinces, for documents from the last `policy.window_days` days that mention the case names or the Dutch keywords (circulair, hergebruik bouwmaterialen, grondstoffen, gebiedsontwikkeling with the case names). If the API is unreachable or the format differs, say so in the run notes and fall back to WebSearch with `site:` queries on the municipal council sites.
 2. **Officiële publicaties** (gemeenteblad, provinciaal blad, Staatscourant, Kamerstukken): SRU at `https://repository.overheid.nl/sru` with `query=c.product-area==officielepublicaties AND ...` (CQL; use `dt.creator` for the issuer and `cql.textAndIndexes` or `dt.title` for terms, and `dt.date>=` for the period), `maximumRecords=50`.
 3. **Tweede Kamer** open data (`https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/`): documents whose subject or title contains circulair / circulaire economie / bouw / grondstoffen in the period.
-4. **EUR-Lex and EU**: WebSearch only, few queries.
+4. **EU policy** (WebSearch and WebFetch on the sites in `policy.eu.sources`; about 10 to 15 queries): for every dossier in `policy.eu.dossiers`, look for new steps since the last run (announcement, call for evidence, consultation, Commission proposal, EP committee report and vote, Council general approach, trilogue, adoption, publication in the Official Journal, application dates, delegated and implementing acts) and for EESC or CoR opinions. Also catch new EU initiatives on the built environment, construction products, waste and secondary raw materials that are not on the list yet; mention them in the counts notes as "possible new dossier".
 5. **Case websites** in `policy.case_sites`: WebSearch `site:` queries for new documents or news that announce documents.
 If a source fails, report the error once and continue with the others.
+
+## EU dossier status (`data/eu-dossiers.json`)
+Keep one entry per dossier in the config, as a JSON object keyed by dossier id:
+`{"name": "...", "stage": "announced|consultation|proposal|in Parliament|in Council|trilogue|adopted|in force|implementation", "stage_date": "YYYY-MM-DD", "last_event": "<one line, own words>", "last_event_date": "YYYY-MM-DD", "next_step": "<one line: what is expected next and when, as announced by the institution; say 'not announced' otherwise>", "links": ["https://..."], "updated": "<week>"}`.
+Update an entry only on evidence from an official source (Commission, Parliament, Council, EUR-Lex, Official Journal); news reports may point you to it but are not enough on their own. Never guess a stage. Each new step is also returned as a policy item with `level: "EU"`, `section: "new"`, `dossier: "<id>"`. A new step in the Circular Economy Act, the Construction Products Regulation acts or the C&D rules of the Waste Framework Directive scores at least 4.
 
 ## De-duplication
 - Against earlier radar weeks: `data/seen.csv` (by URL, and by title + issuer + date).
@@ -35,7 +40,7 @@ Write a JSON list to `radar/items/<week>/policy.json`, one object per item:
  "id": "<URL>", "url": "...", "title": "...", "issuer": "...", "level": "MUN", "case": "RTM|AMS|TLB|ALL|-",
  "date": "YYYY-MM-DD", "doc_type": "raadsvoorstel|collegebrief|motie|visie|programma|monitor|Kamerbrief|...",
  "score": 4, "bears_on": "SQ2 | Paper 1", "summary": "<one or two sentences, own words, descriptive>",
- "source": "ORI|SRU|TK|EUR-Lex|web", "query": "<the query that found it>", "found_via": "<corpus candidates only>",
+ "source": "ORI|SRU|TK|EU|web", "dossier": "<EU dossier id, EU items only>", "query": "<the query that found it>", "found_via": "<corpus candidates only>",
  "reason": "<screened_out only>"}
 ```
 Write the counts object to `radar/items/<week>/policy.counts.json` (add `"notes": [...]` for limitations and problems): `{"queries": n, "sources_ok": [...], "sources_failed": [...], "since": "YYYY-MM-DD"}`.
