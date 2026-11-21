@@ -157,6 +157,142 @@
  "core_exclude": [
   "A Ladder of Citizen Participation"
  ],
+ "theme_map": {
+  "Material passports": [
+   "material passport",
+   "materials passport",
+   "digital product passport",
+   "materialenpaspoort",
+   "building passport"
+  ],
+  "Design for disassembly": [
+   "design for disassembly",
+   "disassembly",
+   "demountable",
+   "demontabel",
+   "losmaakbaar",
+   "reversible building"
+  ],
+  "Reuse of components": [
+   "reuse",
+   "re-use",
+   "reclaimed",
+   "salvaged",
+   "second-hand building",
+   "component",
+   "hergebruik",
+   "oogsten",
+   "harvest"
+  ],
+  "Modular construction": [
+   "modular",
+   "prefab",
+   "industrialised construction",
+   "industrial construction",
+   "modulair",
+   "conceptbouw"
+  ],
+  "Biobased materials": [
+   "biobased",
+   "bio-based",
+   "timber",
+   "wood",
+   "hout",
+   "hemp",
+   "straw",
+   "mass timber"
+  ],
+  "Urban mining": [
+   "urban mining",
+   "building stock",
+   "material stock",
+   "materials in buildings",
+   "urban mine",
+   "stedelijke mijn"
+  ],
+  "Circular procurement": [
+   "procurement",
+   "tender",
+   "aanbesteding",
+   "inkoop",
+   "purchasing"
+  ],
+  "Adaptive reuse of buildings": [
+   "adaptive reuse",
+   "transformation",
+   "conversion",
+   "herbestemming",
+   "transformatie",
+   "renovation"
+  ],
+  "Local material loops": [
+   "local",
+   "proximity",
+   "regional loop",
+   "short loop",
+   "territorial",
+   "localisation",
+   "localization",
+   "nearby",
+   "lokale kringloop",
+   "regionaal",
+   "hub"
+  ],
+  "Water/energy circularity": [
+   "water",
+   "energy",
+   "heat",
+   "warmte",
+   "energie"
+  ],
+  "Circular business models": [
+   "business model",
+   "product as a service",
+   "leasing",
+   "verdienmodel",
+   "value chain"
+  ],
+  "Governance & policy": [
+   "governance",
+   "policy",
+   "regulation",
+   "municipality",
+   "local government",
+   "beleid",
+   "gemeente",
+   "programme",
+   "strategy"
+  ],
+  "Stakeholder collaboration": [
+   "collaboration",
+   "partnership",
+   "stakeholder",
+   "coalition",
+   "co-creation",
+   "samenwerking",
+   "participation"
+  ],
+  "Financing & value": [
+   "finance",
+   "financing",
+   "value",
+   "cost",
+   "investment",
+   "financiering",
+   "waarde",
+   "business case"
+  ],
+  "Digital tools & data": [
+   "digital",
+   "data",
+   "BIM",
+   "GIS",
+   "platform",
+   "digital twin",
+   "database",
+   "monitoring"
+  ]
+ },
  "term_watch": [
   [
    "circular economy",
