@@ -1,8 +1,14 @@
-{"searches": 45, "fetched": 0, "since": "2026-10-31",
+{
+ "searches": 89,
+ "fetched": 17,
+ "since": "2026-10-31",
  "notes": [
-  "WebFetch was blocked by the session network policy for every host tried (environment.ec.europa.eu, cinea.ec.europa.eu, azom.com, omroepbrabant.nl, news.cornell.edu): no pages opened, no article images; dates and summaries rest on search-result snippets.",
-  "Cases layer: no news within the window on M4H, Marineterrein or Ringpark Zuid (Tilburg); searches for Ringpark Zuid return the Antwerp project.",
-  "LinkedIn layer: site:linkedin.com/posts returned only profile pages, no posts.",
-  "site: filters for Dutch outlets (gebiedsontwikkeling.nu, cobouw.nl, stadszaken.nl, duurzaamgebouwd.nl, circulairondernemen.nl, versbeton.nl) were mostly ignored by the search engine; few dated Dutch items in the window.",
-  "Layer spread of reported items: europe 3, international 3, netherlands 1, events 1, cases 0."
- ]}
+  "Week 47 has two society runs. Run 1: 45 searches, WebFetch blocked. Run 2 (this one): 44 searches; WebFetch worked, which added publication dates and images to the EU and AZoM items. Run 2 found no new news inside the window: the search engine mostly returns undated or older pages.",
+  "Correction: the 'Bouwhubs kaart' webinar took place on 30 September 2026 (organiser page), so it moved to Screened out. data/seen.csv still lists it as reported, because the composer does not update rows that already exist.",
+  "Cases layer: no in-window news on M4H, Marineterrein or Ringpark Zuid (Tilburg). The Ringpark Zuid query, even with -Antwerpen -Antwerp, returned only the Antwerp project; all those results were discarded.",
+  "LinkedIn layer: site:linkedin.com/posts again returned only profile pages, no posts.",
+  "Fetch problems: vlaio.be returned 403 (not worked around); bim-world.de returned 404 (CirCoFin hub session at BIM World Munich, 24-25 Nov, not verified).",
+  "Layer spread of reported items: europe 3, international 3, netherlands 1, cases 0, events 0. Europe and international together are 6 of 7, well above one third.",
+  "data/events.json was created this run: 7 entries, 4 verified on organiser pages. IST 2027, WCEF 2027 and the Nationale Conferentie Circulaire Economie 2027 are marked unverified (third-party listings only). Urban Transitions 2026 is over; no 2027 edition announced. AESOP Young Academics 2027: nothing announced, so it is not listed."
+ ]
+}
