@@ -155,7 +155,9 @@ policy:
     open_raadsinformatie: {api: "https://api.openraadsinformatie.nl/v1/elastic/", docs: "https://docs.openraadsinformatie.nl/"}
     officiele_publicaties: {sru: "https://repository.overheid.nl/sru", collection: officielepublicaties}
     tweede_kamer: {odata: "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/"}
-    eur_lex: {search: "web"}                     # no simple API; WebSearch site:eur-lex.europa.eu
+    eur_lex_cellar: {sparql: "https://publications.europa.eu/webapi/rdf/sparql"}          # EUR-Lex metadata: COM documents, acts, Official Journal
+    ep_open_data: {api: "https://data.europarl.europa.eu/api/v2", docs: "https://data.europarl.europa.eu/api/v2"}   # EP procedures and their events; max 500 requests per 5 min
+    ted: {api: "https://api.ted.europa.eu/v3/notices/search", docs: "https://docs.ted.europa.eu/api/latest/search.html"}  # public tenders, anonymous search
   eu:
     sources: [environment.ec.europa.eu, "ec.europa.eu/info/law/better-regulation (Have your say)", eur-lex.europa.eu, "oeil.secure.europarl.europa.eu (Legislative Observatory)", "europarl.europa.eu (Think Tank, committees ENVI, ITRE, IMCO)", "data.consilium.europa.eu", "consilium.europa.eu (press)", "eesc.europa.eu", "cor.europa.eu", "circulareconomy.europa.eu (ECESP)", "single-market-economy.ec.europa.eu (construction)"]
     dossiers:              # tracked every run in data/eu-dossiers.json; add or remove freely
@@ -167,6 +169,11 @@ policy:
       - {id: CRMA, name: "Critical Raw Materials Act: recycling and secondary sources", why: "urban mining framing"}
       - {id: TAX, name: "EU Taxonomy: construction and real estate circular economy criteria", why: "finance of circular area development"}
       - {id: LEVELS, name: "Level(s) and EU built environment / construction strategy", why: "common indicators for circular buildings"}
+  procurement:            # TED tenders: circular construction, demolition and reuse in public works
+    countries: [NLD, BEL, DEU, DNK, FRA, AUT, SWE, FIN]
+    cpv: ["45110000", "45111100", "45000000", "71000000", "90500000"]   # demolition, demolition work, construction work, architecture/engineering, waste services
+    terms: [circulair, circular, hergebruik, reuse, "re-use", oogsten, urban mining, materialenpaspoort, "material passport", Wiederverwendung, réemploi, genbrug]
+    window_days: 30
   case_sites:
     NL-000: ["m4hrotterdam.nl", "rotterdam.nl"]
     NL-001: ["marineterrein.nl", "amsterdam.nl"]
