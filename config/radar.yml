@@ -1,0 +1,123 @@
+# PhD radar configuration. Edit freely; the weekly run reads this file first.
+# Searches combine a concept term with a domain term ("A AND B") unless a group says standalone: true.
+
+owner: Florens Jocker
+research: Circular Area Development (PhD, TU Delft, ACT! WP4)
+
+streams:
+  academia: {active: true}
+  policy:   {active: false}   # next build step (Open Raadsinformatie, officielebekendmakingen, Tweede Kamer, EUR-Lex)
+  society:  {active: false}   # next build step (trade press, news, events)
+
+window_days: 60            # look back this far for new publications; seen.csv prevents repeats
+min_score_report: 3        # 1 to 5; items below go to "Screened out" with a reason, never dropped silently
+max_items_weekly: 25
+
+corpus_window_end: 2026-12-31   # until then the policy stream lists "Corpus candidates" (found_via) for the SQ2 corpus
+
+library_proxy: "https://tudelft.idm.oclc.org/login?url="   # TU Delft library proxy prefix; to verify
+
+keywords:
+  A_core_concepts:
+    - territorialisation
+    - territorialization
+    - localisation
+    - localization
+    - "proximity principle"
+    - "spatial scale of loop closure"
+    - "closing material loops"
+    - "loop closure"
+    - "value retention"
+    - "value-retention options"
+    - "circular area development"
+    - "circular urban development"
+    - "circular district"
+    - "circular neighbourhood"
+    - "urban mining"
+    - "urban metabolism"
+    - eco-localism
+    - relocalisation
+  B_domain:
+    - "circular economy"
+    - circularity
+    - construction
+    - building
+    - "built environment"
+    - demolition
+    - "construction and demolition waste"
+    - "secondary building materials"
+    - "reclaimed building materials"
+    - "component reuse"
+  C_instruments:            # specific enough on their own
+    standalone: true
+    terms:
+      - "material passport"
+      - "materials passport"
+      - "materials bank"
+      - "circular construction hub"
+      - "urban resource hub"
+      - '"circular procurement" construction'
+      - '"regional material flow analysis" construction'
+  D_governance:             # combined with "circular economy" AND (urban OR area)
+    - "transition governance"
+    - "actor coalitions"
+    - "discourse-institutional analysis"
+    - "area development"
+    - "urban redevelopment"
+    - "spatial planning"
+  H_methods:                # comparable studies: combined with B (weekly); methods literature (monthly)
+    cadence: monthly
+    terms:
+      - "integrative review"
+      - "discursive institutionalism"
+      - "longitudinal policy analysis"
+      - "policy document analysis"
+      - "multi-level governance"
+      - "material flow analysis"
+      - "GIS network analysis"
+      - '"reverse logistics" spatial'
+      - "participatory backcasting"
+      - "scenario modelling"
+      - "design guidelines"
+      - "Delphi"
+      - "process tracing"
+      - '"critical realism" planning'
+  I_ai_coding:              # monthly, no domain filter
+    cadence: monthly
+    standalone: true
+    terms:
+      - '"large language model" "qualitative coding"'
+      - "LLM-assisted content analysis"
+      - '"LLM" "inter-rater reliability" coding'
+      - '"GPT" "document analysis" reliability'
+  E_dutch:                  # policy and society streams
+    - "circulaire gebiedsontwikkeling"
+    - "circulair bouwen"
+    - "circulair slopen"
+    - "hergebruik bouwmaterialen"
+    - "secundaire bouwmaterialen"
+    - materialenpaspoort
+    - bouwhub
+    - grondstoffenhub
+    - "Nationaal Programma Circulaire Economie"
+    - "Transitieagenda Bouw"
+    - MPG
+  F_cases:
+    - {name: "M4H / Merwe-Vierhavens", aliases: ["M4H", "Merwe-Vierhavens", "Merwevierhavens"], city: Rotterdam, ref: NL-000}
+    - {name: "Marineterrein", aliases: ["Marineterrein"], city: Amsterdam, ref: NL-001}
+    - {name: "Ringpark Zuid", aliases: ["Ringpark Zuid"], city: Tilburg, ref: NL-002, note: "always with Tilburg; a Ringpark Zuid also exists in Antwerp"}
+  G_core_works: derived   # computed from the Zotero library (scripts/library_graph.py): most-cited works inside the library
+
+journals:   # table-of-contents watch (OpenAlex source search by name)
+  - Journal of Cleaner Production
+  - "Resources, Conservation and Recycling"
+  - Journal of Industrial Ecology
+  - Urban Studies
+  - Environmental Innovation and Societal Transitions
+  - Circular Economy and Sustainability
+  - Planning Theory
+  - European Planning Studies
+  - Environment and Planning B
+  - Cities
+  - Sustainable Cities and Society
+  - Building and Environment
