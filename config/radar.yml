@@ -212,9 +212,9 @@ society:
 
 # ---------- events and conferences (kept in data/events.json, updated by the society stream) ----------
 events:
-  nl_horizon_days: 120          # Dutch events, webinars, symposia
+  nl_horizon_days: 180          # professional events, webinars, symposia, network meetings (Dutch and European)
   conference_horizon_days: 450  # academic and professional conferences, with submission deadlines
-  nl_sources: [platformcb23.nl, pakhuisdezwijger.nl, skgebiedsontwikkeling.nl, gebiedsontwikkeling.nu, platform31.nl, tudelft.nl, cbehub, circulaireconomienederland.nl, "Nationale Conferentie Circulaire Economie", "Week van de Circulaire Economie", stadmakerscongres.nl, buildingholland.nl, provada.nl, holland-circular-hotspot.nl, nederlandcirculairin2050.nl]
+  nl_sources: ["TKI Bouw en Techniek (tki-bouwentechniek.nl)", "Bouwend Nederland", "Circular Construction Hub NL", "NEN", "Rijksoverheid / Rijkswaterstaat circulaire bouw", "Holland Circular Hotspot", "ACT! project meetings", "European Circular Economy Stakeholder Conference", "Circular Week Europe", platformcb23.nl, pakhuisdezwijger.nl, skgebiedsontwikkeling.nl, gebiedsontwikkeling.nu, platform31.nl, tudelft.nl, cbehub, circulaireconomienederland.nl, "Nationale Conferentie Circulaire Economie", "Week van de Circulaire Economie", stadmakerscongres.nl, buildingholland.nl, provada.nl, holland-circular-hotspot.nl, nederlandcirculairin2050.nl]
   conference_series:            # recurring conferences to check every run (official site only for dates and deadlines)
     - AESOP Annual Congress
     - AESOP Young Academics Conference
