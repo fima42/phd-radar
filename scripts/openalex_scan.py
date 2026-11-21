@@ -30,12 +30,18 @@ def build_queries(cfg, monthly):
     A, B, D = k["A_core_concepts"], k["B_domain"], k["D_governance"]
     C, H, I = k["C_instruments"]["terms"], k["H_methods"]["terms"], k["I_ai_coding"]["terms"]
     qs = []
-    for i in range(0, len(A), 6):   # chunks keep the boolean expression short
-        qs.append(("A×B", f"{q_or(A[i:i + 6])} AND {q_or(B)}"))
+    # ambiguous concept terms (localisation: robots, SLAM; loop closure: control theory) only together with circularity
+    AMB = set(k.get("A_ambiguous", []))
+    A_amb, A_ok = [t for t in A if t in AMB], [t for t in A if t not in AMB]
+    CE = '("circular economy" OR circularity OR "circular construction" OR "circular building")'
+    for i in range(0, len(A_ok), 6):   # chunks keep the boolean expression short
+        qs.append(("A×B", f"{q_or(A_ok[i:i + 6])} AND {q_or(B)}"))
+    for i in range(0, len(A_amb), 6):
+        qs.append(("A×B", f"{q_or(A_amb[i:i + 6])} AND {CE} AND (urban OR city OR area OR regional OR construction OR building)"))
     for t in C:
         qs.append(("C", t if t.startswith('"') else f'"{t}"'))
     qs.append(("D", f'{q_or(D)} AND "circular economy" AND (urban OR area OR city)'))
-    qs.append(("H×B", f"{q_or(H)} AND {q_or(B)} AND (urban OR area OR city OR regional)"))
+    qs.append(("H×B", f'{q_or(H)} AND {CE} AND {q_or(B)} AND (urban OR area OR city OR regional)'))
     if monthly:
         for i in range(0, len(H), 7):
             qs.append(("H methods", q_or(H[i:i + 7])))
@@ -86,7 +92,12 @@ def main():
         n_q += 1
 
     graph = load_json(f"{DATA}/library-graph.json", {}) or {}
-    core = {c["id"]: c for c in graph.get("core", [])}
+    skip = set(cfg.get("core_exclude", []) or [])
+    cap = int(cfg.get("core_max_global_citations", 0) or 0)
+    core_all = {c["id"]: c for c in graph.get("core", [])}
+    # forward tracking leaves out excluded and very widely cited classics (they are cited across all fields)
+    core = {k: c for k, c in core_all.items() if k not in skip and not any(x.lower() in (c.get("title") or "").lower() for x in skip)
+            and not (cap and (c.get("cited_by") or 0) > cap)}
     if core:
         ids = list(core)
         for i in range(0, len(ids), 25):
@@ -94,7 +105,7 @@ def main():
                 add(w, "G forward citation")
             n_q += 1
     for h in hits.values():
-        h["cites_core"] = [core[r]["title"] for r in h["refs"] if r in core]
+        h["cites_core"] = [core_all[r]["title"] for r in h["refs"] if r in core_all]
         h.pop("refs", None)
 
     # de-duplicate against the Zotero library and earlier radar weeks

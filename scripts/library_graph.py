@@ -22,7 +22,7 @@ def oa(params, key):
 
 def main():
     key = env("OPENALEX_API_KEY")
-    n_core, n_gaps = arg("--core", 25), arg("--gaps", 30)
+    n_core, n_gaps = arg("--core", 30), arg("--gaps", 30)
     idx = load_json(f"{DATA}/zotero-index.json") or sys.exit("Run zotero_index.py first.")
     cache = load_json(f"{DATA}/openalex-doi-cache.json", {}) or {}
     dois = sorted({v["doi"] for v in idx["items"].values() if v["doi"]})
@@ -41,7 +41,7 @@ def main():
 
     lib = {v["id"]: v for v in cache.values() if v}
     counts = collections.Counter(r for v in lib.values() for r in set(v["refs"]))
-    core = [{"id": w, "title": lib[w]["title"], "year": lib[w]["year"], "cited_in_library": n}
+    core = [{"id": w, "title": lib[w]["title"], "year": lib[w]["year"], "cited_in_library": n, "cited_by": lib[w].get("cited_by", 0)}
             for w, n in counts.most_common() if w in lib][:n_core]
     gap_ids = [(w, n) for w, n in counts.most_common() if w not in lib and n >= MIN_GAP][:n_gaps]
     gaps = []

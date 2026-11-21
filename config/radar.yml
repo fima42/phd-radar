@@ -37,6 +37,13 @@ keywords:
     - "urban metabolism"
     - eco-localism
     - relocalisation
+  A_ambiguous:              # A terms that also mean something else; searched only together with circularity
+    - localisation
+    - localization
+    - "loop closure"
+    - "proximity principle"
+    - relocalisation
+    - "value retention"
   B_domain:
     - "circular economy"
     - circularity
@@ -107,6 +114,10 @@ keywords:
     - {name: "Marineterrein", aliases: ["Marineterrein"], city: Amsterdam, ref: NL-001}
     - {name: "Ringpark Zuid", aliases: ["Ringpark Zuid"], city: Tilburg, ref: NL-002, note: "always with Tilburg; a Ringpark Zuid also exists in Antwerp"}
   G_core_works: derived   # computed from the Zotero library (scripts/library_graph.py): most-cited works inside the library
+
+core_max_global_citations: 8000   # core works cited more often than this worldwide are not forward-tracked (too general)
+core_exclude:                      # titles (or OpenAlex IDs) of core works not to forward-track
+  - "A Ladder of Citizen Participation"
 
 journals:   # table-of-contents watch (OpenAlex source search by name)
   - Journal of Cleaner Production
