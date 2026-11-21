@@ -1,0 +1,8 @@
+{"searches": 45, "fetched": 0, "since": "2026-10-31",
+ "notes": [
+  "WebFetch was blocked by the session network policy for every host tried (environment.ec.europa.eu, cinea.ec.europa.eu, azom.com, omroepbrabant.nl, news.cornell.edu): no pages opened, no article images; dates and summaries rest on search-result snippets.",
+  "Cases layer: no news within the window on M4H, Marineterrein or Ringpark Zuid (Tilburg); searches for Ringpark Zuid return the Antwerp project.",
+  "LinkedIn layer: site:linkedin.com/posts returned only profile pages, no posts.",
+  "site: filters for Dutch outlets (gebiedsontwikkeling.nu, cobouw.nl, stadszaken.nl, duurzaamgebouwd.nl, circulairondernemen.nl, versbeton.nl) were mostly ignored by the search engine; few dated Dutch items in the window.",
+  "Layer spread of reported items: europe 3, international 3, netherlands 1, events 1, cases 0."
+ ]}
