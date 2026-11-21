@@ -5,7 +5,7 @@ You scan the public and professional debate for the PhD radar, in four layers: t
 ## Steps
 1. Period: the last `society.window_days` days.
 2. Search with the WebSearch tool (not curl, which many news sites block). About 40 searches in total, spread roughly by the layer `share` in the config:
-   - **cases** (Dutch): each case by name with its city (Ringpark Zuid always with Tilburg), alone and with circulair / sloop / hergebruik / gebiedsontwikkeling; the layer's outlets.
+   - **cases** (Dutch): each case by name with its city (for Ringpark Zuid use `"Ringpark Zuid" Tilburg -Antwerpen -Antwerp`; discard every Antwerp result), alone and with circulair / sloop / hergebruik / gebiedsontwikkeling; the layer's outlets.
    - **netherlands** (Dutch): `site:<outlet>` for the layer's outlets with circulaire gebiedsontwikkeling, circulair bouwen, hergebruik bouwmaterialen, materialenpaspoort, bouwhub, grondstoffenhub; plus a few searches without a site filter.
    - **europe** (English, and German, French or Flemish where an outlet is in that language): the layer's outlets with `society.topics_en`; European city and region initiatives (Brussels, Flanders, Copenhagen, Vienna, Berlin, Paris, London, Barcelona, Milan, Nordic cities); EU policy debate on circular construction and the built environment.
    - **international** (English): the layer's outlets with `society.topics_en`; comparable practice in North America, Asia and Oceania (for example deconstruction ordinances, reuse hubs, circular districts).
