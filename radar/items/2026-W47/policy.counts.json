@@ -1,8 +1,11 @@
 {
- "queries": 41,
+ "queries": 99,
  "sources_ok": [
   "SRU (officiële publicaties)",
   "TK OData",
+  "EP Open Data",
+  "EUR-Lex Cellar SPARQL",
+  "TED",
   "web"
  ],
  "sources_failed": [
@@ -14,6 +17,14 @@
   "omroepbrabant.nl and metropoolregioamsterdam.nl blocked for direct fetch; two items judged on search metadata only.",
   "SRU: no Tilburg, Zuid-Holland or Noord-Holland publications with 'circulair' in the window; 'Ringpark Zuid' 0 hits.",
   "EUR-Lex: web search only; the Circular Economy Act proposal was not yet found as published.",
-  "First policy stream run: seen.csv held no earlier policy items."
+  "First policy stream run: seen.csv held no earlier policy items.",
+  "Second policy run this week (after the EU APIs and dossier tracking were added): earlier items kept; EP Open Data, Cellar SPARQL, TED and EU dossier searches added; SRU rechecked from 2026-11-19.",
+  "Open Raadsinformatie API still unreachable (no connection).",
+  "TED: full-text (FT) term search returns many unrelated notices; reported tenders come from title matches, FT hits were screened by hand. Window 2026-10-22 to 2026-11-21.",
+  "Circular Economy Act: no Commission proposal in EUR-Lex (COM documents to 20 Nov 2026) or EP Open Data; press reports of 11 and 18 Nov dates are unconfirmed, and one report (13 Nov) says 2027. Stage left at consultation.",
+  "Possible new dossier: Waste Shipment Regulation green-listing (C(2026) 7390), which includes aluminium and steel waste from construction and demolition.",
+  "Possible new dossier: Construction Services Act (Commission work programme 2026, Q4; not yet proposed).",
+  "Possible new dossier: Affordable Housing Act 2026/0268(COD), referred to EP committee 22 Oct 2026 (not screened for construction-material content).",
+  "EU dossier status for WFD (C&D end-of-waste) and TAX rests on Commission/JRC pages found via search; no new official step found in the window."
  ]
 }

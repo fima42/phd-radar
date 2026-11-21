@@ -1,0 +1,101 @@
+{
+ "CEA": {
+  "name": "Circular Economy Act",
+  "stage": "consultation",
+  "stage_date": "2025-08-01",
+  "last_event": "No Commission proposal found in EUR-Lex or EP Open Data up to 20 Nov 2026; Have your say lists adoption in Q4 2026",
+  "last_event_date": "2026-11-20",
+  "next_step": "Commission proposal, planned Q4 2026 per Have your say (dates in the press unconfirmed)",
+  "links": [
+   "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14812-Circular-Economy-Act",
+   "https://environment.ec.europa.eu/news/commission-launches-consultation-upcoming-circular-economy-act-2025-08-01_en"
+  ],
+  "updated": "2026-W47"
+ },
+ "CPR": {
+  "name": "Construction Products Regulation (EU) 2024/3110: delegated and implementing acts",
+  "stage": "implementation",
+  "stage_date": "2026-01-08",
+  "last_event": "Delegated regulation C(2026) 7917 on classification without testing for reaction to fire adopted, sent to Council 13 Nov",
+  "last_event_date": "2026-11-10",
+  "next_step": "Scrutiny by Parliament and Council, then publication in the Official Journal; date not announced",
+  "links": [
+   "https://data.consilium.europa.eu/doc/document/ST-15847-2026-INIT/en/pdf",
+   "https://eur-lex.europa.eu/eli/reg/2024/3110/oj"
+  ],
+  "updated": "2026-W47"
+ },
+ "WFD": {
+  "name": "Waste Framework Directive: construction and demolition waste, end-of-waste criteria",
+  "stage": "announced",
+  "stage_date": "",
+  "last_event": "JRC technical work on EU end-of-waste criteria for mineral C&D waste; no Commission act found",
+  "last_event_date": "",
+  "next_step": "not announced",
+  "links": [
+   "https://environment.ec.europa.eu/topics/waste-and-recycling/waste-framework-directive_en"
+  ],
+  "updated": "2026-W47"
+ },
+ "EPBD": {
+  "name": "Energy Performance of Buildings Directive: life-cycle GWP and renovation",
+  "stage": "implementation",
+  "stage_date": "2024-05-28",
+  "last_event": "Delegated Regulation (EU) 2026/52 sets the EU framework for life-cycle GWP of new buildings",
+  "last_event_date": "2025-12-16",
+  "next_step": "National roadmaps for GWP limit values by 2027; GWP disclosure for new buildings >1000 m2 from 2028",
+  "links": [
+   "https://eur-lex.europa.eu/eli/reg_del/2026/52/oj"
+  ],
+  "updated": "2026-W47"
+ },
+ "PPD": {
+  "name": "Public procurement directives revision",
+  "stage": "in Parliament",
+  "stage_date": "2026-11-11",
+  "last_event": "Public Procurement Act proposal COM(2026) 590 announced in plenary and referred to committee",
+  "last_event_date": "2026-11-11",
+  "next_step": "Committee rapporteur and draft report; not announced",
+  "links": [
+   "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2026/0265(COD)",
+   "https://single-market-economy.ec.europa.eu/publications/proposal-regulation-public-contracts-and-concessions_en"
+  ],
+  "updated": "2026-W47"
+ },
+ "CRMA": {
+  "name": "Critical Raw Materials Act: recycling and secondary sources",
+  "stage": "trilogue",
+  "stage_date": "2026-11-04",
+  "last_event": "First trilogue on the CRMA amendments (2025/0385(COD)) after Parliament's mandate of 20 Oct",
+  "last_event_date": "2026-11-04",
+  "next_step": "Further trilogues; not announced",
+  "links": [
+   "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0385(COD)"
+  ],
+  "updated": "2026-W47"
+ },
+ "TAX": {
+  "name": "EU Taxonomy: construction and real estate circular economy criteria",
+  "stage": "consultation",
+  "stage_date": "",
+  "last_event": "Review of the Climate and Environmental Delegated Acts consulted in 2026; no revised act found",
+  "last_event_date": "",
+  "next_step": "not announced",
+  "links": [
+   "https://finance.ec.europa.eu/publications/platform-sustainable-finance-response-commissions-consultation-environmental-and-climate-delegated_en"
+  ],
+  "updated": "2026-W47"
+ },
+ "LEVELS": {
+  "name": "Level(s) and EU built environment / construction strategy",
+  "stage": "adopted",
+  "stage_date": "2025-12-16",
+  "last_event": "European Strategy for Housing Construction adopted as industrial pillar of the Affordable Housing Plan",
+  "last_event_date": "2025-12-16",
+  "next_step": "Construction Services Act listed for Q4 2026 in the Commission work programme",
+  "links": [
+   "https://transition-pathways.europa.eu/construction/housing/european-strategy-housing-construction-industrial-pillar-commission-affordable"
+  ],
+  "updated": "2026-W47"
+ }
+}
