@@ -1,0 +1,19 @@
+{
+ "queries": 41,
+ "sources_ok": [
+  "SRU (officiële publicaties)",
+  "TK OData",
+  "web"
+ ],
+ "sources_failed": [
+  "ORI (Open Raadsinformatie API)"
+ ],
+ "since": "2026-10-07",
+ "notes": [
+  "Open Raadsinformatie API and docs blocked by the network policy (HTTP 403); fell back to web searches for council documents, which returned no in-window council documents for the three cases.",
+  "omroepbrabant.nl and metropoolregioamsterdam.nl blocked for direct fetch; two items judged on search metadata only.",
+  "SRU: no Tilburg, Zuid-Holland or Noord-Holland publications with 'circulair' in the window; 'Ringpark Zuid' 0 hits.",
+  "EUR-Lex: web search only; the Circular Economy Act proposal was not yet found as published.",
+  "First policy stream run: seen.csv held no earlier policy items."
+ ]
+}
