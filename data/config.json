@@ -544,8 +544,21 @@
    },
    "netherlands": {
     "share": 0.25,
+    "listing_pages": [
+     "https://www.gebiedsontwikkeling.nu/artikelen/",
+     "https://www.skgebiedsontwikkeling.nl/",
+     "https://www.platformcb23.nl/nieuws",
+     "https://www.stadszaken.nl/",
+     "https://www.cobouw.nl/duurzaamheid",
+     "https://www.duurzaamgebouwd.nl/",
+     "https://www.circulairondernemen.nl/",
+     "https://www.romagazine.nl/actueel",
+     "https://www.pbl.nl/actueel",
+     "https://www.rli.nl/actueel"
+    ],
     "outlets": [
      "gebiedsontwikkeling.nu",
+     "skgebiedsontwikkeling.nl",
      "cobouw.nl",
      "stadszaken.nl",
      "romagazine.nl",
