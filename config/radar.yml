@@ -156,27 +156,35 @@ policy:
     NL-002: ["tilburg.nl"]
 
 # ---------- society stream ----------
+# Four layers; the subagent spreads its searches over them (shares are a guide, not a quota).
 society:
   window_days: 21
-  outlets:                                         # searched with WebSearch site: queries; add or remove freely
-    - gebiedsontwikkeling.nu
-    - cobouw.nl
-    - stadszaken.nl
-    - romagazine.nl
-    - duurzaamgebouwd.nl
-    - circulairondernemen.nl
-    - platformcb23.nl
-    - pbl.nl
-    - rli.nl
-    - circle-economy.com
-    - nos.nl
-    - ad.nl
-    - parool.nl
-    - omroepbrabant.nl
-    - nrc.nl
-    - fd.nl
-  linkedin: true                                   # public, indexed posts only (site:linkedin.com/posts)
-  events: [pakhuisdezwijger.nl, tudelft.nl, "circulaire bouweconomie event"]
+  layers:
+    cases:                 # ~20%: news on the three research areas
+      share: 0.2
+      outlets: [ad.nl, parool.nl, omroepbrabant.nl, nos.nl, versbeton.nl]
+    netherlands:           # ~25%: Dutch debate on circular area development and circular construction
+      share: 0.25
+      outlets: [gebiedsontwikkeling.nu, cobouw.nl, stadszaken.nl, romagazine.nl, duurzaamgebouwd.nl, circulairondernemen.nl, platformcb23.nl, pbl.nl, rli.nl, architectenweb.nl, dearchitect.nl, binnenlandsbestuur.nl, nrc.nl, fd.nl]
+    europe:                # ~30%: European cities, regions and EU debate
+      share: 0.3
+      outlets: [euractiv.com, eea.europa.eu, environment.ec.europa.eu, iclei-europe.org, eurocities.eu, urbact.eu, acrplus.org, circularcitiesandregions.eu, vlaanderen-circulair.be, circulareconomy.brussels, baunetz.de, worldgbc.org, ellenmacarthurfoundation.org, circle-economy.com]
+    international:         # ~25%: the wider debate and comparable practice beyond Europe
+      share: 0.25
+      outlets: [bloomberg.com/citylab, theguardian.com, dezeen.com, archdaily.com, theconversation.com, oecd.org, unep.org, metabolic.nl, c40.org]
+  topics_en:               # English searches for the europe and international layers
+    - '"circular construction" city'
+    - '"circular district" OR "circular neighbourhood"'
+    - '"construction materials reuse" city policy'
+    - '"deconstruction ordinance"'
+    - '"urban mining" building materials'
+    - '"materials bank" OR "material passport" building'
+    - '"circular construction hub" OR "reuse hub" building materials'
+    - '"circular economy" "spatial planning"'
+    - '"circular economy" "urban regeneration" OR "area redevelopment"'
+    - '"demolition waste" reuse "local"'
+  linkedin: true           # public, indexed posts only (site:linkedin.com/posts), Dutch and English
+  events: [pakhuisdezwijger.nl, tudelft.nl, "circular construction conference Europe", "circulaire bouweconomie event"]
 
 # live feeds for the Obsidian radar page (fetched in Obsidian, not by the weekly run); dead feeds are listed as "not loaded"
 live_feeds:
