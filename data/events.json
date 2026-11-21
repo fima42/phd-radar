@@ -110,5 +110,53 @@
   "relevance": "Dutch national CE policy (SQ2 national level); networking for Guidelines",
   "verified": false,
   "updated": "2026-W47"
+ },
+ {
+  "id": "REAL CORP 2027",
+  "kind": "conference",
+  "title": "REAL CORP 2027",
+  "series": "REAL CORP",
+  "organiser": "CORP – Competence Center of Urban and Regional Planning",
+  "start": "2027-04-04",
+  "end": "2027-04-07",
+  "place": "Gdańsk, Poland",
+  "deadline": "2026-11-30",
+  "deadline_what": "abstracts",
+  "url": "https://corp.at/index.php?L=0&id=44",
+  "relevance": "Urban planning and smart regional development; possible venue for Paper 1 or a GIS-based SQ3 paper",
+  "verified": true,
+  "updated": "2026-W47"
+ },
+ {
+  "id": "ERSCP 2027",
+  "kind": "conference",
+  "title": "ERSCP 2027: Towards sustainable and circular societies",
+  "series": "European Roundtable on Sustainable Consumption and Production",
+  "organiser": "LNEG and NOVA FCT",
+  "start": "2027-06-22",
+  "end": "2027-06-25",
+  "place": "Lisbon, Portugal",
+  "deadline": "2026-12-10",
+  "deadline_what": "abstracts",
+  "url": "https://erscp2027.lneg.pt/call-for-abstracts/",
+  "relevance": "Circular economy and sustainability science; fits Paper 1 (territorialisation/localisation) or Paper 2 (closure at scale). 22 June is the PhD day.",
+  "verified": true,
+  "updated": "2026-W47"
+ },
+ {
+  "id": "Week van de Circulaire Economie 2027",
+  "kind": "nl_event",
+  "title": "Week van de Circulaire Economie 2027",
+  "series": "",
+  "organiser": "Rijksoverheid / RVO and partners",
+  "start": "2027-03-11",
+  "end": "2027-03-19",
+  "place": "Netherlands (various)",
+  "deadline": "",
+  "deadline_what": "",
+  "url": "https://form.jotform.com/261793768921371",
+  "relevance": "National circular economy week; network and open-house events on circular construction (SQ2, SQ4)",
+  "verified": false,
+  "updated": "2026-W47"
  }
 ]
