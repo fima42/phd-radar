@@ -1,0 +1,571 @@
+{
+ "owner": "Florens Jocker",
+ "research": "Circular Area Development (PhD, TU Delft, ACT! WP4)",
+ "streams": {
+  "academia": {
+   "active": true
+  },
+  "policy": {
+   "active": true
+  },
+  "society": {
+   "active": true
+  }
+ },
+ "window_days": 60,
+ "min_score_report": 3,
+ "max_items_weekly": 25,
+ "max_items_policy": 20,
+ "max_items_society": 20,
+ "corpus_window_end": "2026-12-31",
+ "library_proxy": "https://tudelft.idm.oclc.org/login?url=",
+ "keywords": {
+  "A_core_concepts": [
+   "territorialisation",
+   "territorialization",
+   "localisation",
+   "localization",
+   "proximity principle",
+   "spatial scale of loop closure",
+   "closing material loops",
+   "loop closure",
+   "value retention",
+   "value-retention options",
+   "circular area development",
+   "circular urban development",
+   "circular district",
+   "circular neighbourhood",
+   "urban mining",
+   "urban metabolism",
+   "eco-localism",
+   "relocalisation"
+  ],
+  "A_ambiguous": [
+   "localisation",
+   "localization",
+   "loop closure",
+   "proximity principle",
+   "relocalisation",
+   "value retention"
+  ],
+  "B_domain": [
+   "circular economy",
+   "circularity",
+   "construction",
+   "building",
+   "built environment",
+   "demolition",
+   "construction and demolition waste",
+   "secondary building materials",
+   "reclaimed building materials",
+   "component reuse"
+  ],
+  "C_instruments": {
+   "standalone": true,
+   "terms": [
+    "material passport",
+    "materials passport",
+    "materials bank",
+    "circular construction hub",
+    "urban resource hub",
+    "\"circular procurement\" construction",
+    "\"regional material flow analysis\" construction"
+   ]
+  },
+  "D_governance": [
+   "transition governance",
+   "actor coalitions",
+   "discourse-institutional analysis",
+   "area development",
+   "urban redevelopment",
+   "spatial planning"
+  ],
+  "H_methods": {
+   "cadence": "monthly",
+   "terms": [
+    "integrative review",
+    "discursive institutionalism",
+    "longitudinal policy analysis",
+    "policy document analysis",
+    "multi-level governance",
+    "material flow analysis",
+    "GIS network analysis",
+    "\"reverse logistics\" spatial",
+    "participatory backcasting",
+    "scenario modelling",
+    "design guidelines",
+    "Delphi",
+    "process tracing",
+    "\"critical realism\" planning"
+   ]
+  },
+  "I_ai_coding": {
+   "cadence": "monthly",
+   "standalone": true,
+   "terms": [
+    "\"large language model\" \"qualitative coding\"",
+    "LLM-assisted content analysis",
+    "\"LLM\" \"inter-rater reliability\" coding",
+    "\"GPT\" \"document analysis\" reliability"
+   ]
+  },
+  "E_dutch": [
+   "circulaire gebiedsontwikkeling",
+   "circulair bouwen",
+   "circulair slopen",
+   "hergebruik bouwmaterialen",
+   "secundaire bouwmaterialen",
+   "materialenpaspoort",
+   "bouwhub",
+   "grondstoffenhub",
+   "Nationaal Programma Circulaire Economie",
+   "Transitieagenda Bouw",
+   "MPG"
+  ],
+  "F_cases": [
+   {
+    "name": "M4H / Merwe-Vierhavens",
+    "aliases": [
+     "M4H",
+     "Merwe-Vierhavens",
+     "Merwevierhavens"
+    ],
+    "city": "Rotterdam",
+    "ref": "NL-000"
+   },
+   {
+    "name": "Marineterrein",
+    "aliases": [
+     "Marineterrein"
+    ],
+    "city": "Amsterdam",
+    "ref": "NL-001"
+   },
+   {
+    "name": "Ringpark Zuid",
+    "aliases": [
+     "Ringpark Zuid"
+    ],
+    "city": "Tilburg",
+    "ref": "NL-002",
+    "note": "always with Tilburg; a Ringpark Zuid also exists in Antwerp"
+   }
+  ],
+  "G_core_works": "derived"
+ },
+ "core_max_global_citations": 8000,
+ "core_exclude": [
+  "A Ladder of Citizen Participation"
+ ],
+ "term_watch": [
+  [
+   "circular economy",
+   "circular society"
+  ],
+  [
+   "territorialisation",
+   "localisation"
+  ],
+  [
+   "recycling",
+   "reuse"
+  ],
+  [
+   "circular city",
+   "circular region"
+  ],
+  [
+   "material passport",
+   "digital product passport"
+  ]
+ ],
+ "trend_terms": [
+  "territorial",
+  "localis",
+  "proximity",
+  "loop closure",
+  "urban mining",
+  "urban metabolism",
+  "material passport",
+  "materials bank",
+  "circular construction",
+  "circular city",
+  "circular cities",
+  "circular district",
+  "circular area",
+  "area development",
+  "spatial planning",
+  "reuse",
+  "re-use",
+  "demolition",
+  "deconstruction",
+  "construction and demolition",
+  "secondary material",
+  "hub",
+  "governance",
+  "local government",
+  "procurement",
+  "value retention",
+  "material flow",
+  "GIS",
+  "scenario",
+  "backcasting",
+  "living lab",
+  "justice",
+  "biobased",
+  "timber"
+ ],
+ "journals": [
+  "Journal of Cleaner Production",
+  "Resources, Conservation and Recycling",
+  "Journal of Industrial Ecology",
+  "Urban Studies",
+  "Environmental Innovation and Societal Transitions",
+  "Circular Economy and Sustainability",
+  "Planning Theory",
+  "European Planning Studies",
+  "Environment and Planning B",
+  "Cities",
+  "Sustainable Cities and Society",
+  "Building and Environment",
+  "Sustainability",
+  "European Journal of Spatial Development"
+ ],
+ "policy": {
+  "window_days": 45,
+  "levels": [
+   "EU",
+   "NAT",
+   "PRV",
+   "REG",
+   "MUN",
+   "AREA"
+  ],
+  "municipalities": [
+   "Rotterdam",
+   "Amsterdam",
+   "Tilburg"
+  ],
+  "provinces": [
+   "Zuid-Holland",
+   "Noord-Holland",
+   "Noord-Brabant"
+  ],
+  "regions": [
+   "Metropoolregio Rotterdam Den Haag",
+   "Metropoolregio Amsterdam",
+   "Regio Hart van Brabant"
+  ],
+  "national_issuers": [
+   "Ministerie van Infrastructuur en Waterstaat",
+   "Ministerie van Volkshuisvesting en Ruimtelijke Ordening",
+   "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+   "Rijkswaterstaat",
+   "PBL Planbureau voor de Leefomgeving",
+   "Raad voor de leefomgeving en infrastructuur"
+  ],
+  "sources": {
+   "open_raadsinformatie": {
+    "api": "https://api.openraadsinformatie.nl/v1/elastic/",
+    "docs": "https://docs.openraadsinformatie.nl/"
+   },
+   "officiele_publicaties": {
+    "sru": "https://repository.overheid.nl/sru",
+    "collection": "officielepublicaties"
+   },
+   "tweede_kamer": {
+    "odata": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/"
+   },
+   "eur_lex_cellar": {
+    "sparql": "https://publications.europa.eu/webapi/rdf/sparql"
+   },
+   "ep_open_data": {
+    "api": "https://data.europarl.europa.eu/api/v2",
+    "docs": "https://data.europarl.europa.eu/api/v2"
+   },
+   "ted": {
+    "api": "https://api.ted.europa.eu/v3/notices/search",
+    "docs": "https://docs.ted.europa.eu/api/latest/search.html"
+   }
+  },
+  "eu": {
+   "sources": [
+    "environment.ec.europa.eu",
+    "ec.europa.eu/info/law/better-regulation (Have your say)",
+    "eur-lex.europa.eu",
+    "oeil.secure.europarl.europa.eu (Legislative Observatory)",
+    "europarl.europa.eu (Think Tank, committees ENVI, ITRE, IMCO)",
+    "data.consilium.europa.eu",
+    "consilium.europa.eu (press)",
+    "eesc.europa.eu",
+    "cor.europa.eu",
+    "circulareconomy.europa.eu (ECESP)",
+    "single-market-economy.ec.europa.eu (construction)"
+   ],
+   "dossiers": [
+    {
+     "id": "CEA",
+     "name": "Circular Economy Act",
+     "why": "single market for secondary raw materials; circular public procurement of works"
+    },
+    {
+     "id": "CPR",
+     "name": "Construction Products Regulation (EU) 2024/3110: delegated and implementing acts",
+     "why": "reuse and remanufactured construction products, digital product passport"
+    },
+    {
+     "id": "WFD",
+     "name": "Waste Framework Directive: construction and demolition waste, end-of-waste criteria",
+     "why": "status of released C&D material"
+    },
+    {
+     "id": "EPBD",
+     "name": "Energy Performance of Buildings Directive: life-cycle GWP and renovation",
+     "why": "whole-life carbon pushes reuse"
+    },
+    {
+     "id": "PPD",
+     "name": "Public procurement directives revision",
+     "why": "circular criteria in public works"
+    },
+    {
+     "id": "CRMA",
+     "name": "Critical Raw Materials Act: recycling and secondary sources",
+     "why": "urban mining framing"
+    },
+    {
+     "id": "TAX",
+     "name": "EU Taxonomy: construction and real estate circular economy criteria",
+     "why": "finance of circular area development"
+    },
+    {
+     "id": "LEVELS",
+     "name": "Level(s) and EU built environment / construction strategy",
+     "why": "common indicators for circular buildings"
+    }
+   ]
+  },
+  "procurement": {
+   "countries": [
+    "NLD",
+    "BEL",
+    "DEU",
+    "DNK",
+    "FRA",
+    "AUT",
+    "SWE",
+    "FIN"
+   ],
+   "cpv": [
+    "45110000",
+    "45111100",
+    "45000000",
+    "71000000",
+    "90500000"
+   ],
+   "terms": [
+    "circulair",
+    "circular",
+    "hergebruik",
+    "reuse",
+    "re-use",
+    "oogsten",
+    "urban mining",
+    "materialenpaspoort",
+    "material passport",
+    "Wiederverwendung",
+    "réemploi",
+    "genbrug"
+   ],
+   "window_days": 30
+  },
+  "case_sites": {
+   "NL-000": [
+    "m4hrotterdam.nl",
+    "rotterdam.nl"
+   ],
+   "NL-001": [
+    "marineterrein.nl",
+    "amsterdam.nl"
+   ],
+   "NL-002": [
+    "tilburg.nl"
+   ]
+  }
+ },
+ "society": {
+  "window_days": 21,
+  "layers": {
+   "cases": {
+    "share": 0.2,
+    "outlets": [
+     "ad.nl",
+     "parool.nl",
+     "omroepbrabant.nl",
+     "nos.nl",
+     "versbeton.nl"
+    ]
+   },
+   "netherlands": {
+    "share": 0.25,
+    "outlets": [
+     "gebiedsontwikkeling.nu",
+     "cobouw.nl",
+     "stadszaken.nl",
+     "romagazine.nl",
+     "duurzaamgebouwd.nl",
+     "circulairondernemen.nl",
+     "platformcb23.nl",
+     "pbl.nl",
+     "rli.nl",
+     "architectenweb.nl",
+     "dearchitect.nl",
+     "binnenlandsbestuur.nl",
+     "nrc.nl",
+     "fd.nl"
+    ]
+   },
+   "europe": {
+    "share": 0.3,
+    "outlets": [
+     "euractiv.com",
+     "eea.europa.eu",
+     "environment.ec.europa.eu",
+     "iclei-europe.org",
+     "eurocities.eu",
+     "urbact.eu",
+     "acrplus.org",
+     "circularcitiesandregions.eu",
+     "vlaanderen-circulair.be",
+     "circulareconomy.brussels",
+     "baunetz.de",
+     "worldgbc.org",
+     "ellenmacarthurfoundation.org",
+     "circle-economy.com"
+    ]
+   },
+   "international": {
+    "share": 0.25,
+    "outlets": [
+     "bloomberg.com/citylab",
+     "theguardian.com",
+     "dezeen.com",
+     "archdaily.com",
+     "theconversation.com",
+     "oecd.org",
+     "unep.org",
+     "metabolic.nl",
+     "c40.org"
+    ]
+   }
+  },
+  "topics_en": [
+   "\"circular construction\" city",
+   "\"circular district\" OR \"circular neighbourhood\"",
+   "\"construction materials reuse\" city policy",
+   "\"deconstruction ordinance\"",
+   "\"urban mining\" building materials",
+   "\"materials bank\" OR \"material passport\" building",
+   "\"circular construction hub\" OR \"reuse hub\" building materials",
+   "\"circular economy\" \"spatial planning\"",
+   "\"circular economy\" \"urban regeneration\" OR \"area redevelopment\"",
+   "\"demolition waste\" reuse \"local\""
+  ],
+  "linkedin": true,
+  "events": [
+   "pakhuisdezwijger.nl",
+   "tudelft.nl",
+   "circular construction conference Europe",
+   "circulaire bouweconomie event"
+  ]
+ },
+ "events": {
+  "nl_horizon_days": 180,
+  "conference_horizon_days": 450,
+  "nl_sources": [
+   "TKI Bouw en Techniek (tki-bouwentechniek.nl)",
+   "Bouwend Nederland",
+   "Circular Construction Hub NL",
+   "NEN",
+   "Rijksoverheid / Rijkswaterstaat circulaire bouw",
+   "Holland Circular Hotspot",
+   "ACT! project meetings",
+   "European Circular Economy Stakeholder Conference",
+   "Circular Week Europe",
+   "platformcb23.nl",
+   "pakhuisdezwijger.nl",
+   "skgebiedsontwikkeling.nl",
+   "gebiedsontwikkeling.nu",
+   "platform31.nl",
+   "tudelft.nl",
+   "cbehub",
+   "circulaireconomienederland.nl",
+   "Nationale Conferentie Circulaire Economie",
+   "Week van de Circulaire Economie",
+   "stadmakerscongres.nl",
+   "buildingholland.nl",
+   "provada.nl",
+   "holland-circular-hotspot.nl",
+   "nederlandcirculairin2050.nl"
+  ],
+  "conference_series": [
+   "AESOP Annual Congress",
+   "AESOP Young Academics Conference",
+   "IST International Sustainability Transitions Conference",
+   "ISIE Conference (International Society for Industrial Ecology) and ISIE SEM/Circular economy section meetings",
+   "RSA Regional Studies Association Annual Conference",
+   "EURA European Urban Research Association Conference",
+   "ERSA Congress",
+   "World Circular Economy Forum (WCEF)",
+   "Urban Transitions Conference",
+   "CIB World Building Congress / SBE Sustainable Built Environment conferences",
+   "International Conference on Urban Planning and Regional Development in the Information Society (REAL CORP)",
+   "Circular Economy and Sustainability (journal) conferences / ICCES",
+   "ACSP-AESOP joint congresses",
+   "Dutch-Flemish urban studies days (Stedelijke Studiedagen / Urban Studies Day)"
+  ],
+  "topics": [
+   "circular economy",
+   "circular construction",
+   "circular cities",
+   "urban planning",
+   "area development",
+   "sustainability transitions",
+   "industrial ecology",
+   "urban metabolism",
+   "regional studies"
+  ]
+ },
+ "live_feeds": [
+  {
+   "name": "Rijksoverheid CE",
+   "url": "https://feeds.rijksoverheid.nl/onderwerpen/circulaire-economie/nieuws.rss",
+   "color": "#E8C84A"
+  },
+  {
+   "name": "Gebiedsontwikkeling.nu",
+   "url": "https://www.gebiedsontwikkeling.nu/rss",
+   "color": "#00A6D6"
+  },
+  {
+   "name": "Cobouw",
+   "url": "https://www.cobouw.nl/rss",
+   "color": "#E8742B"
+  },
+  {
+   "name": "Stadszaken",
+   "url": "https://www.stadszaken.nl/rss",
+   "color": "#6fbf8e"
+  },
+  {
+   "name": "ROmagazine",
+   "url": "https://www.romagazine.nl/rss",
+   "color": "#a28ae5"
+  },
+  {
+   "name": "Duurzaam Gebouwd",
+   "url": "https://www.duurzaamgebouwd.nl/rss",
+   "color": "#5FD4E8"
+  }
+ ]
+}

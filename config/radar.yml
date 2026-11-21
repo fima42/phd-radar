@@ -121,6 +121,14 @@ core_max_global_citations: 8000   # core works cited more often than this worldw
 core_exclude:                      # titles (or OpenAlex IDs) of core works not to forward-track
   - "A Ladder of Citizen Participation"
 
+# term pairs compared on the Trends tab (share of each over time); add your own, e.g. a new term against an established one
+term_watch:
+  - ["circular economy", "circular society"]
+  - ["territorialisation", "localisation"]
+  - ["recycling", "reuse"]
+  - ["circular city", "circular region"]
+  - ["material passport", "digital product passport"]
+
 # terms counted per week in titles of reported items (data/archive/stats.json, Trends tab); add freely
 trend_terms: [territorial, localis, proximity, "loop closure", "urban mining", "urban metabolism", "material passport", "materials bank",
   "circular construction", "circular city", "circular cities", "circular district", "circular area", "area development", "spatial planning",
