@@ -11,7 +11,7 @@ You scan the public and professional debate for the PhD radar, in four layers: t
    - **international** (English): the layer's outlets with `society.topics_en`; comparable practice in North America, Asia and Oceania (for example deconstruction ordinances, reuse hubs, circular districts).
    - **linkedin**: public posts (`site:linkedin.com/posts`) in Dutch and English on circular area development and circular construction hubs.
    - **events**: conferences, webinars and lectures in the coming three months, in the Netherlands and Europe.
-3. Open promising results with WebFetch to read them and to find the publication date and the article image (`og:image` or the first large image), when the page allows it. Never reproduce article text: summarise in your own words.
+3. Open promising results with WebFetch to read them and to find the publication date and the article image. For the image, prefer the page's `og:image` or `twitter:image` meta tag: when WebFetch summarises the page without it, fetch the raw HTML with `curl -sL -A "Mozilla/5.0" <url> | grep -io '<meta[^>]*og:image[^>]*>'` and take the `content` URL (https only). Every news item should have an `image` when the page has one. Never reproduce article text: summarise in your own words.
 4. De-duplicate by URL and by near-identical headline; against `data/seen.csv`.
 5. Score 1 to 5 (judgement). Geography does not decide the score; relevance to the research questions does:
    - 5: directly on the questions of an SQ: where and at what scale construction and demolition material is kept in loops, how circular ambitions are territorialised or localised in area development, or news on one of the three cases.
