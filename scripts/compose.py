@@ -16,7 +16,7 @@ RADAR = os.path.join(ROOT, "radar")
 ARCH = os.path.join(DATA, "archive")
 STREAMS = ["academia", "policy", "society"]
 CAPS = {"academia": "max_items_weekly", "policy": "max_items_policy", "society": "max_items_society"}
-REPORTED = {"new", "forward", "methods", "corpus_candidate", "news", "event", "gap"}
+REPORTED = {"new", "forward", "methods", "corpus_candidate", "news", "event", "gap", "context"}
 
 def key_of(it):
     return norm_doi(it.get("doi")) or (it.get("url") or "").strip().lower().rstrip("/") or it.get("id") or norm_title(it.get("title"))
@@ -89,6 +89,14 @@ def note(week, items, counts, cfg):
     L += ["## Society", "### News"] + [x for i in sec("society", "news") for x in [
         f"- **{i.get('title','')}** ({i.get('source','')}, {i.get('country','')}, {i.get('date','')}) | score {i.get('score','?')}/5 | {i.get('layer','')}",
         f"  {i.get('summary','')} | {links(i)}"]] + [""]
+    ctx = sec("society", "context")
+    if ctx:
+        dn = {d["id"]: d["name"] for d in (cfg.get("context") or {}).get("drivers", [])}
+        L += ["## Context | the wider picture"]
+        for did in dict.fromkeys(i.get("driver", "") for i in ctx):
+            L += [f"### {dn.get(did, did or 'Other')}"] + [x for i in ctx if i.get("driver", "") == did for x in [
+                f"- {'**[signal]** ' if i.get('signal') else ''}**{i.get('title','')}** ({i.get('source','')}, {i.get('date','')}) | {links(i)}",
+                f"  {i.get('summary','')} {('Why it may matter: ' + i['why']) if i.get('why') else ''}"]] + [""]
     if sec("society", "event"): L += ["### Events"] + [f"- {i.get('event_date','')} | **{i.get('title','')}** ({i.get('source','')}) | {links(i)}" for i in sorted(sec('society', 'event'), key=lambda i: str(i.get('event_date')))] + [""]
     ev = load_json(os.path.join(DATA, "events.json"), []) or []
     if ev:
@@ -119,7 +127,7 @@ def update_seen(items):
             have.add(k)
     write_csv(path, rows, ["id", "stream", "week", "status", "title"])
 
-FIELDS = ["stream", "section", "layer", "country", "level", "case", "bears_on", "score", "title", "venue", "source", "issuer",
+FIELDS = ["stream", "section", "driver", "signal", "layer", "country", "level", "case", "bears_on", "score", "title", "venue", "source", "issuer",
           "doc_type", "date", "year", "matched", "doi", "url", "first_author", "cited_in_library"]
 
 def update_archive(week, items, cfg):

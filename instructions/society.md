@@ -21,6 +21,10 @@ You scan the public and professional debate for the PhD radar, in four layers: t
    - 2: tangential (product or firm level without a spatial angle). 1: false hit.
 6. Report the layer of each item, so the owner sees the spread. If fewer than a third of the reported items come from the europe and international layers, say so in the counts.
 
+## Context briefing (the wider picture, no keyword filter)
+After the news and the events, spend about 12 searches on `context.drivers` (one or two per driver) in the last `context.window_days` days, using `context.sources` and the driver's `look_for`. This is mainstream news on purpose: what could change the conditions for circular area development even when it never mentions circularity. Pick at most `context.max_items` items in total, the most consequential first, at least one per driver when there is real news for it (skip a driver rather than padding it).
+Return each as an item with `section: "context"`, `driver: "<driver id>"`, `title`, `source`, `date`, `url`, `image` (og:image as for news), `summary` (one or two sentences, own words), `why` (one sentence: how this could affect circular area development, the cases or the PhD; label it as a judgement, e.g. "Could …"), and `signal: true` when it is a weak signal: small now, but could grow into a real shift (a first municipality pausing circular requirements, a new term in policy, a sudden price move). Do not score context items.
+
 ## Events and conferences (`data/events.json`)
 Keep a persistent list, updated every run (about 10 extra searches):
 - **Professional events** (`kind: nl_event`; `events.nl_sources`, horizon `events.nl_horizon_days`): webinars, symposia, congresses, network and consortium meetings (for example TKI Bouw en Techniek, Platform CB'23, Week van de Circulaire Economie, the NCCE) and European stakeholder events on circular construction, circular area development, gebiedsontwikkeling and the circular economy. Dutch first, but include European ones.
@@ -32,7 +36,7 @@ New events found this week are also returned as items with `section: "event"` (a
 ## Return format
 Write a JSON list to `radar/items/<week>/society.json`, one object per item:
 ```
-{"stream": "society", "section": "news|event|screened_out",
+{"stream": "society", "section": "news|event|context|screened_out", "driver": "<context items only>", "why": "<context items only>", "signal": false,
  "id": "<URL>", "url": "...", "title": "<headline as published>", "source": "<outlet>", "date": "YYYY-MM-DD",
  "event_date": "<events only>", "image": "<https image URL or empty>", "case": "RTM|AMS|TLB|-",
  "layer": "cases|netherlands|europe|international|linkedin|events", "country": "<country or EU>",

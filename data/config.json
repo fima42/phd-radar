@@ -628,6 +628,61 @@
    "circulaire bouweconomie event"
   ]
  },
+ "context": {
+  "max_items": 12,
+  "window_days": 7,
+  "sources": [
+   "nos.nl",
+   "nrc.nl",
+   "fd.nl",
+   "volkskrant.nl",
+   "cobouw.nl",
+   "rijksoverheid.nl",
+   "cbs.nl",
+   "pbl.nl",
+   "euractiv.com",
+   "politico.eu",
+   "ft.com",
+   "reuters.com"
+  ],
+  "drivers": [
+   {
+    "id": "politics",
+    "name": "Politics and governance",
+    "look_for": "cabinet and coalition plans, budgets, municipal and provincial policy shifts, EU Green Deal politics and simplification, elections"
+   },
+   {
+    "id": "housing",
+    "name": "Housing and land",
+    "look_for": "housing construction task, land market and land policy, Nota Ruimte, Omgevingswet in practice, permits"
+   },
+   {
+    "id": "construction",
+    "name": "Construction economy",
+    "look_for": "building costs, interest rates, labour shortage, bankruptcies, construction and demolition volumes, investment"
+   },
+   {
+    "id": "bottlenecks",
+    "name": "Bottlenecks",
+    "look_for": "nitrogen, grid congestion, water, space for infrastructure, permitting delays"
+   },
+   {
+    "id": "materials",
+    "name": "Materials and resources",
+    "look_for": "prices and supply of steel, cement, timber, aggregates, critical raw materials, trade policy, tariffs"
+   },
+   {
+    "id": "cases",
+    "name": "Your case contexts",
+    "look_for": "port of Rotterdam transition and M4H surroundings, defence spending and Rijksvastgoedbedrijf (Marineterrein is defence land), Amsterdam and Tilburg urban development"
+   },
+   {
+    "id": "research",
+    "name": "Research world",
+    "look_for": "NWO and EU research funding (Horizon Europe, FP10), Dutch university budgets, open science, AI in research"
+   }
+  ]
+ },
  "events": {
   "nl_horizon_days": 180,
   "conference_horizon_days": 450,
