@@ -178,7 +178,7 @@ def main():
     save_json(os.path.join(RADAR, "items", f"{week}.json"), items)
     save_json(os.path.join(RADAR, "items.json"), items)
     with open(os.path.join(RADAR, f"{week}.md"), "w", encoding="utf-8") as f: f.write(note(week, items, counts, cfg))
-    save_json(os.path.join(DATA, "config.json"), cfg)   # a JSON copy of the config for the Obsidian page
+    save_json(os.path.join(DATA, "config.json"), json.loads(json.dumps(cfg, default=str)))   # a JSON copy of the config for the Obsidian page
     update_seen(items)
     update_archive(week, items, cfg)
     by = collections.Counter((i["stream"], i.get("section")) for i in items)
