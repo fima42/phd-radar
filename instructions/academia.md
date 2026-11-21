@@ -24,7 +24,7 @@ Return a JSON list to the manager, one object per item:
  "id": "<DOI or OpenAlex ID>", "doi": "...", "title": "...", "first_author": "...", "year": 2026, "venue": "...",
  "score": 4, "bears_on": "SQ3 | Paper 2", "summary": "<one or two sentences, own words>",
  "matched": ["A×B"], "cites_core": ["..."], "oa_url": "...", "zotero_match": "<title if probable>",
- "reason": "<for screened_out: why>"}
+ "reason": "<for screened_out: why>", "cited_in_library": <n, gaps only>}
 ```
 Plus a counts object: `{"in_library": n, "seen": n, "queries": n, "since": "YYYY-MM-DD"}`.
 Do not write the weekly note yourself; the manager does.
