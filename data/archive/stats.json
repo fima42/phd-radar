@@ -1,0 +1,96 @@
+{
+ "generated": "2026-11-21",
+ "weeks": [
+  "2026-W47"
+ ],
+ "items": 473,
+ "configs": {
+  "2026-W47": "5955e33b2a"
+ },
+ "by_stream": {
+  "academia": {
+   "2026-W47": 473
+  }
+ },
+ "reported_by_stream": {
+  "academia": {
+   "2026-W47": 25
+  }
+ },
+ "bears_on": {
+  "SQ2": {
+   "2026-W47": 11
+  },
+  "SQ4": {
+   "2026-W47": 11
+  },
+  "Guidelines": {
+   "2026-W47": 5
+  },
+  "SQ1": {
+   "2026-W47": 15
+  },
+  "SQ3": {
+   "2026-W47": 21
+  }
+ },
+ "layer": {},
+ "country": {},
+ "level": {},
+ "case": {},
+ "matched": {
+  "H×B": {
+   "2026-W47": 7
+  },
+  "D": {
+   "2026-W47": 3
+  },
+  "A×B": {
+   "2026-W47": 23
+  },
+  "G forward citation": {
+   "2026-W47": 19
+  },
+  "C": {
+   "2026-W47": 8
+  }
+ },
+ "terms": {
+  "local government": {
+   "2026-W47": 1
+  },
+  "circular construction": {
+   "2026-W47": 3
+  },
+  "demolition": {
+   "2026-W47": 6
+  },
+  "construction and demolition": {
+   "2026-W47": 5
+  },
+  "urban metabolism": {
+   "2026-W47": 1
+  },
+  "territorial": {
+   "2026-W47": 3
+  },
+  "material flow": {
+   "2026-W47": 1
+  },
+  "reuse": {
+   "2026-W47": 1
+  },
+  "material passport": {
+   "2026-W47": 3
+  },
+  "urban mining": {
+   "2026-W47": 1
+  },
+  "procurement": {
+   "2026-W47": 1
+  },
+  "governance": {
+   "2026-W47": 3
+  }
+ }
+}

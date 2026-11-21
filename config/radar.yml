@@ -121,6 +121,12 @@ core_max_global_citations: 8000   # core works cited more often than this worldw
 core_exclude:                      # titles (or OpenAlex IDs) of core works not to forward-track
   - "A Ladder of Citizen Participation"
 
+# terms counted per week in titles of reported items (data/archive/stats.json, Trends tab); add freely
+trend_terms: [territorial, localis, proximity, "loop closure", "urban mining", "urban metabolism", "material passport", "materials bank",
+  "circular construction", "circular city", "circular cities", "circular district", "circular area", "area development", "spatial planning",
+  reuse, "re-use", demolition, deconstruction, "construction and demolition", "secondary material", hub, governance, "local government",
+  procurement, "value retention", "material flow", GIS, scenario, backcasting, "living lab", justice, "biobased", timber]
+
 journals:   # table-of-contents watch (OpenAlex source search by name)
   - Journal of Cleaner Production
   - "Resources, Conservation and Recycling"

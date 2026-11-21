@@ -18,7 +18,7 @@ You scan the scientific literature for the PhD radar. Read `instructions/00-rule
 7. On a monthly run also pass on the top citation gaps from `data/library-graph.json` (all with `cited_in_library` >= 3, at most 15), and the methods items (query groups "H methods" and "I AI coding") judged with the same scale but listed under Methods.
 
 ## Return format
-Return a JSON list to the manager, one object per item:
+Write a JSON list to `radar/items/<week>/academia.json`, one object per item:
 ```
 {"stream": "academia", "section": "new|forward|probable|methods|gap|screened_out",
  "id": "<DOI or OpenAlex ID>", "doi": "...", "title": "...", "first_author": "...", "year": 2026, "venue": "...",
@@ -26,5 +26,5 @@ Return a JSON list to the manager, one object per item:
  "matched": ["A×B"], "cites_core": ["..."], "oa_url": "...", "zotero_match": "<title if probable>",
  "reason": "<for screened_out: why>", "cited_in_library": <n, gaps only>}
 ```
-Plus a counts object: `{"in_library": n, "seen": n, "queries": n, "since": "YYYY-MM-DD"}`.
-Do not write the weekly note yourself; the manager does.
+Write the counts object to `radar/items/<week>/academia.counts.json` (add `"notes": [...]` for limitations and problems): `{"in_library": n, "seen": n, "queries": n, "since": "YYYY-MM-DD"}`.
+Do not write the weekly note yourself: `scripts/compose.py` does.

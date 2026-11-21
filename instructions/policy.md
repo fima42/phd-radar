@@ -29,7 +29,7 @@ If a source fails, report the error once and continue with the others.
 Until and including that date, every document at AREA, MUN, REG or PRV level about one of the three cases, and every NAT document that applies to all three, that was **adopted or published between 2016 and 2026** and could belong to the SQ2 corpus, is also returned with `section: "corpus_candidate"`, `found_via: "radar <week> | <source> | <query>"`. Older documents found now count too: the point is to catch what the corpus may have missed. After the date, return no corpus candidates.
 
 ## Return format
-A JSON list to the manager, one object per item:
+Write a JSON list to `radar/items/<week>/policy.json`, one object per item:
 ```
 {"stream": "policy", "section": "new|corpus_candidate|screened_out",
  "id": "<URL>", "url": "...", "title": "...", "issuer": "...", "level": "MUN", "case": "RTM|AMS|TLB|ALL|-",
@@ -38,4 +38,4 @@ A JSON list to the manager, one object per item:
  "source": "ORI|SRU|TK|EUR-Lex|web", "query": "<the query that found it>", "found_via": "<corpus candidates only>",
  "reason": "<screened_out only>"}
 ```
-Plus a counts object: `{"queries": n, "sources_ok": [...], "sources_failed": [...], "since": "YYYY-MM-DD"}`.
+Write the counts object to `radar/items/<week>/policy.counts.json` (add `"notes": [...]` for limitations and problems): `{"queries": n, "sources_ok": [...], "sources_failed": [...], "since": "YYYY-MM-DD"}`.

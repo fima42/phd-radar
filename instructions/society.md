@@ -21,7 +21,7 @@ You scan the public and professional debate for the PhD radar, in four layers: t
 6. Report the layer of each item, so the owner sees the spread. If fewer than a third of the reported items come from the europe and international layers, say so in the counts.
 
 ## Return format
-A JSON list to the manager, one object per item:
+Write a JSON list to `radar/items/<week>/society.json`, one object per item:
 ```
 {"stream": "society", "section": "news|event|screened_out",
  "id": "<URL>", "url": "...", "title": "<headline as published>", "source": "<outlet>", "date": "YYYY-MM-DD",
@@ -30,5 +30,5 @@ A JSON list to the manager, one object per item:
  "score": 4, "bears_on": "SQ2", "summary": "<one or two sentences, own words>", "query": "...",
  "reason": "<screened_out only>"}
 ```
-Plus a counts object: `{"searches": n, "fetched": n, "since": "YYYY-MM-DD"}`.
+Write the counts object to `radar/items/<week>/society.counts.json` (add `"notes": [...]` for limitations and problems): `{"searches": n, "fetched": n, "since": "YYYY-MM-DD"}`.
 Note in the counts when a site blocked fetching; never work around a block.

@@ -7109,29 +7109,6 @@
  },
  {
   "stream": "academia",
-  "id": "10.15802/stp2026/370917",
-  "doi": "10.15802/stp2026/370917",
-  "title": "Construction of Discrete Computational Schemes for Studying Tribosystems with Localized Contact Interaction",
-  "first_author": "Mykola O. Kuzin",
-  "year": 2026,
-  "venue": "Science and Transport Progress",
-  "matched": [
-   "A×B"
-  ],
-  "cites_core": [],
-  "oa_url": "https://stp.ust.edu.ua/article/download/370917/357028",
-  "openalex_id": "W7221822980",
-  "section": "screened_out",
-  "score": 1,
-  "score_note": "judgement",
-  "reason": "false hit: other meaning of localisation/territorial/loop closure or unrelated technical field",
-  "week": "2026-W47",
-  "streams": [
-   "academia"
-  ]
- },
- {
-  "stream": "academia",
   "id": "10.1007/s42235-026-00992-w",
   "doi": "10.1007/s42235-026-00992-w",
   "title": "Construction of a Localized Mechanical Response Model and Study on Injury Risk for the Chest of Crash Dummies",
@@ -7236,29 +7213,6 @@
   "cites_core": [],
   "oa_url": null,
   "openalex_id": "W7225384354",
-  "section": "screened_out",
-  "score": 1,
-  "score_note": "judgement",
-  "reason": "methods-term hit (Delphi, integrative review, multi-level governance etc.) in an unrelated field",
-  "week": "2026-W47",
-  "streams": [
-   "academia"
-  ]
- },
- {
-  "stream": "academia",
-  "id": "10.5281/zenodo.24000515",
-  "doi": "10.5281/zenodo.24000515",
-  "title": "Coordination without Hegemony: RCEP and the Political Economy of Multipolar Regionalism in Asia",
-  "first_author": "Dimos Chatzinikolaou",
-  "year": 2026,
-  "venue": "European Journal of East Asian Studies",
-  "matched": [
-   "H×B"
-  ],
-  "cites_core": [],
-  "oa_url": "https://doi.org/10.5281/zenodo.24000515",
-  "openalex_id": "W7225376080",
   "section": "screened_out",
   "score": 1,
   "score_note": "judgement",
@@ -11438,29 +11392,6 @@
   "score": 1,
   "score_note": "judgement",
   "reason": "false hit: other meaning of localisation/territorial/loop closure or unrelated technical field (abstract not available; judged on title/venue)",
-  "week": "2026-W47",
-  "streams": [
-   "academia"
-  ]
- },
- {
-  "stream": "academia",
-  "id": "10.1016/j.adapen.2026.100313",
-  "doi": "10.1016/j.adapen.2026.100313",
-  "title": "Who adopts where and when? Electric vehicle diffusion with building-level localization in Germany",
-  "first_author": "Moritz Raab",
-  "year": 2026,
-  "venue": "Advances in Applied Energy",
-  "matched": [
-   "A×B"
-  ],
-  "cites_core": [],
-  "oa_url": "https://doi.org/10.1016/j.adapen.2026.100313",
-  "openalex_id": "W7204170383",
-  "section": "screened_out",
-  "score": 1,
-  "score_note": "judgement",
-  "reason": "false hit: other meaning of localisation/territorial/loop closure or unrelated technical field",
   "week": "2026-W47",
   "streams": [
    "academia"
