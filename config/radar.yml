@@ -210,6 +210,28 @@ society:
   linkedin: true           # public, indexed posts only (site:linkedin.com/posts), Dutch and English
   events: [pakhuisdezwijger.nl, tudelft.nl, "circular construction conference Europe", "circulaire bouweconomie event"]
 
+# ---------- events and conferences (kept in data/events.json, updated by the society stream) ----------
+events:
+  nl_horizon_days: 120          # Dutch events, webinars, symposia
+  conference_horizon_days: 450  # academic and professional conferences, with submission deadlines
+  nl_sources: [platformcb23.nl, pakhuisdezwijger.nl, skgebiedsontwikkeling.nl, gebiedsontwikkeling.nu, platform31.nl, tudelft.nl, cbehub, circulaireconomienederland.nl, "Nationale Conferentie Circulaire Economie", "Week van de Circulaire Economie", stadmakerscongres.nl, buildingholland.nl, provada.nl, holland-circular-hotspot.nl, nederlandcirculairin2050.nl]
+  conference_series:            # recurring conferences to check every run (official site only for dates and deadlines)
+    - AESOP Annual Congress
+    - AESOP Young Academics Conference
+    - IST International Sustainability Transitions Conference
+    - ISIE Conference (International Society for Industrial Ecology) and ISIE SEM/Circular economy section meetings
+    - RSA Regional Studies Association Annual Conference
+    - EURA European Urban Research Association Conference
+    - ERSA Congress
+    - World Circular Economy Forum (WCEF)
+    - Urban Transitions Conference
+    - CIB World Building Congress / SBE Sustainable Built Environment conferences
+    - International Conference on Urban Planning and Regional Development in the Information Society (REAL CORP)
+    - Circular Economy and Sustainability (journal) conferences / ICCES
+    - ACSP-AESOP joint congresses
+    - Dutch-Flemish urban studies days (Stedelijke Studiedagen / Urban Studies Day)
+  topics: [circular economy, circular construction, circular cities, urban planning, area development, sustainability transitions, industrial ecology, urban metabolism, regional studies]
+
 # live feeds for the Obsidian radar page (fetched in Obsidian, not by the weekly run); dead feeds are listed as "not loaded"
 live_feeds:
   - {name: Rijksoverheid CE, url: "https://feeds.rijksoverheid.nl/onderwerpen/circulaire-economie/nieuws.rss", color: "#E8C84A"}

@@ -90,6 +90,15 @@ def note(week, items, counts, cfg):
         f"- **{i.get('title','')}** ({i.get('source','')}, {i.get('country','')}, {i.get('date','')}) | score {i.get('score','?')}/5 | {i.get('layer','')}",
         f"  {i.get('summary','')} | {links(i)}"]] + [""]
     if sec("society", "event"): L += ["### Events"] + [f"- {i.get('event_date','')} | **{i.get('title','')}** ({i.get('source','')}) | {links(i)}" for i in sorted(sec('society', 'event'), key=lambda i: str(i.get('event_date')))] + [""]
+    ev = load_json(os.path.join(DATA, "events.json"), []) or []
+    if ev:
+        today = datetime.date.today().isoformat()
+        up = sorted([e for e in ev if (e.get("end") or e.get("start") or "9999") >= today], key=lambda e: e.get("start") or "9999")
+        dl = sorted([e for e in up if e.get("deadline") and e["deadline"] >= today], key=lambda e: e["deadline"])
+        L += ["## Events and conferences"]
+        if dl: L += ["### Coming deadlines"] + [f"- **{e['deadline']}** {e.get('deadline_what','')} | {e.get('title','')} ({e.get('place','')}) | [Site]({e.get('url','')})" for e in dl[:8]] + [""]
+        L += ["### Dutch events"] + [f"- {e.get('start','')} | **{e.get('title','')}** ({e.get('organiser','')}, {e.get('place','')}) | [Info]({e.get('url','')})" for e in up if e.get("kind") == "nl_event"] + [""]
+        L += ["### Conferences"] + [f"- {e.get('start','')} to {e.get('end','')} | **{e.get('title','')}** ({e.get('place','')}){' | deadline ' + e['deadline'] if e.get('deadline') else ''}{'' if e.get('verified', True) else ' | not verified'} | [Site]({e.get('url','')})" for e in up if e.get("kind") == "conference"] + [""]
     so = [i for i in items if i.get("section") == "screened_out"]
     L += ["## Screened out", f"<details><summary>{len(so)} items</summary>", ""] + [f"- [{i['stream']}] {i.get('title','')} | score {i.get('score','?')} | {i.get('reason','')}" for i in so] + ["", "</details>", ""]
     L += ["## Run notes"]

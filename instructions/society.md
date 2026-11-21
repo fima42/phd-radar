@@ -20,6 +20,14 @@ You scan the public and professional debate for the PhD radar, in four layers: t
    - 2: tangential (product or firm level without a spatial angle). 1: false hit.
 6. Report the layer of each item, so the owner sees the spread. If fewer than a third of the reported items come from the europe and international layers, say so in the counts.
 
+## Events and conferences (`data/events.json`)
+Keep a persistent list, updated every run (about 10 extra searches):
+- **Dutch events** (`events.nl_sources`, horizon `events.nl_horizon_days`): webinars, symposia, congresses and lectures on circular construction, circular area development, gebiedsontwikkeling and the circular economy.
+- **Conferences** (`events.conference_series` plus new ones on `events.topics`, horizon `events.conference_horizon_days`): academic and large professional conferences anywhere, with the call for papers or abstracts.
+Take dates, places and deadlines only from the organiser's official page (WebFetch it; if it cannot be opened, mark `"verified": false`). Never guess a date: write "not announced". Remove entries whose end date has passed; keep a conference while its edition is upcoming.
+Format: a JSON list, one object per event: `{"id": "<url or series+year>", "kind": "nl_event|conference", "title": "...", "series": "<conference series or empty>", "organiser": "...", "start": "YYYY-MM-DD", "end": "YYYY-MM-DD", "place": "<city, country or online>", "deadline": "YYYY-MM-DD or empty", "deadline_what": "abstracts|full papers|registration|...", "url": "https://...", "relevance": "<one line: which SQ or paper it suits>", "verified": true, "updated": "<week>"}`.
+New events found this week are also returned as items with `section: "event"` (as before).
+
 ## Return format
 Write a JSON list to `radar/items/<week>/society.json`, one object per item:
 ```
