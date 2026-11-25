@@ -1,0 +1,20 @@
+{
+ "searches": 63,
+ "fetched": 66,
+ "since": "2026-11-04",
+ "notes": [
+  "Searches: 41 news (cases 8, netherlands 8, europe 14, international 9, linkedin 2), 12 context briefing, 10 events. Fetched: 35 pages with WebFetch (incl. 13 listing pages) and 31 raw-HTML fetches with curl for og:image, dates and Cobouw teasers.",
+  "Listing sweep (headlines in period since 4 Nov / kept): gebiedsontwikkeling.nu 21/5 (1 reported, 2 screened out, 2 already seen in W47); stadszaken.nl about 23/7 (1 reported, 2 screened out, 1 used as context, 3 already seen); cobouw.nl/duurzaamheid 4/2 (both screened out: one sponsored, one building-level); romagazine.nl/actueel 7/1 (NESSt flexbouw, same story as Stadszaken, merged); pbl.nl/actueel 1/0.",
+  "Listing pages not readable, not worked around: skgebiedsontwikkeling.nl (host not resolvable in this environment; must be allowed in the session's network settings), platformcb23.nl/nieuws (503), circulairondernemen.nl (503), duurzaamgebouwd.nl (403), rli.nl/actueel (403). Same five as in W47. table.media also returned 403.",
+  "Cobouw articles are paywalled: context items from Cobouw rely on headline and the page's own lead (og:description) only.",
+  "Cases layer: no in-period news on M4H / Merwe-Vierhavens, Marineterrein or Ringpark Zuid (Tilburg). The Ringpark Zuid query (with -Antwerpen -Antwerp) again returned only the Antwerp project; all those results were discarded.",
+  "LinkedIn layer: site:linkedin.com/posts returned profile pages only, no posts in period.",
+  "Web search returned few in-period items for the europe and international layers (mostly undated policy pages and older hub launches: Portland, NYC, Brussels ReUse Park, which are screened out as outside the period).",
+  "Layer spread of reported news: europe 2, international 0, netherlands 3, cases 0. Europe and international together are 2 of 5 (40 percent), above one third, but the international layer produced no reportable item this week.",
+  "Circular Economy Act: the proposal slot of 11 November passed without publication; EUWID (24 Nov) reports a new provisional date of 15 December 2026. Reported as news; the policy stream may also pick it up.",
+  "Context briefing: 9 items over 5 drivers (politics 2, housing 2, construction 2, bottlenecks 2, cases 1). Materials driver skipped: the only steel-price news found (WSD forecast via GMK) is from 12 November, outside the 7-day window. Research driver skipped: no NWO, university-budget or FP10 news found since 18 November.",
+  "Events: data/events.json updated in place (11 entries, none passed, all set to 2026-W48). Added PROVADA 2027 (15-17 June 2027, RAI Amsterdam, from provada.nl). EURA 2027 updated: organiser announcement says abstracts run until January 2027 (no exact day). IST 2027, WCEF 2027, Nationale Conferentie Circulaire Economie 2027 and Week van de Circulaire Economie 2027 remain unverified: no organiser page found. ISIE 2027 and REAL CORP 2027 abstract deadlines are 30 November 2026 (in five days).",
+  "Not added to events: ICCEMPA-27 (APSTE, Frankfurt, Feb 2027; commercial generic conference series), PREUSE symposium (took place 4-5 June 2026), VNG STOP/TPOD workshops (no SQ link). No Pakhuis de Zwijger, Platform CB'23 or Stadmakerscongres dates found for the coming months.",
+  "No text addressing an AI was found on fetched pages."
+ ]
+}
