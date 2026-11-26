@@ -1,0 +1,25 @@
+{
+ "queries": 101,
+ "sources_ok": [
+  "SRU (officiële publicaties)",
+  "TK OData",
+  "EP Open Data",
+  "EUR-Lex Cellar SPARQL",
+  "TED",
+  "web"
+ ],
+ "sources_failed": [
+  "ORI (Open Raadsinformatie API)"
+ ],
+ "since": "2026-10-12",
+ "notes": [
+  "Open Raadsinformatie API unreachable again (no connection through the network policy); council documents covered only via SRU and web searches, which found no new council documents for the three cases.",
+  "SRU: no new Rotterdam, Amsterdam or Tilburg publications with 'circulair' since 15 Nov; 'Ringpark', 'Marineterrein', 'Merwe-Vierhavens' and 'M4H' gave only hits already in seen.csv or unrelated ones.",
+  "Zuid-Holland published (26 Nov) draft amendments of its omgevingsvisie and omgevingsprogramma for housing with circular and biobased construction ambitions; reported as PRV frame for the Rotterdam case.",
+  "Circular Economy Act: still no Commission proposal in EUR-Lex (documents to 26 Nov 2026) or EP Open Data; stage left at consultation.",
+  "EU dossiers: no new official step found for CEA, CPR, WFD, EPBD, PPD, CRMA, TAX or LEVELS this week; data/eu-dossiers.json left unchanged.",
+  "Construction Services Act (possible new dossier, noted in W47): still planned for Q4 2026, no proposal found.",
+  "Possible new dossier: European Climate Resilience Law (EP procedure 2026/0336(COD)), not yet screened for construction-material content; Standardisation Regulation revision (2026/0307(COD)) may affect harmonised standards under the CPR.",
+  "TED: combined OR term queries returned 0 hits; searched term by term (title) instead. Most 'Rückbau'/'déconstruction' hits are ordinary demolition and were not listed individually."
+ ]
+}
