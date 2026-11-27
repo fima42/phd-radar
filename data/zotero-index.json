@@ -1,6 +1,6 @@
 {
- "version": 6063,
- "count": 552,
+ "version": 6149,
+ "count": 563,
  "items": {
   "69NITFQY": {
    "doi": "",
@@ -23,8 +23,9 @@
    "first_author": "orwell",
    "type": "document",
    "collections": [
-    "I9JZQAIQ",
-    "R9M4LIRP"
+    "4ZZXY4XT",
+    "R9M4LIRP",
+    "RL3Z97Q5"
    ]
   },
   "GUKYG4RZ": {
@@ -36,7 +37,7 @@
    "type": "webpage",
    "collections": [
     "EXLZ92RP",
-    "I9JZQAIQ"
+    "XMYYFRKK"
    ]
   },
   "WZVK4N7N": {
@@ -48,8 +49,8 @@
    "type": "webpage",
    "collections": [
     "EXLZ92RP",
-    "I9JZQAIQ",
-    "UEVTY3Q4"
+    "UEVTY3Q4",
+    "XMYYFRKK"
    ]
   },
   "EM2NQTQC": {
@@ -60,7 +61,7 @@
    "first_author": "collingridge",
    "type": "book",
    "collections": [
-    "I9JZQAIQ",
+    "CG8C529H",
     "UEVTY3Q4"
    ]
   },
@@ -72,7 +73,6 @@
    "first_author": "cronin",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
     "R9M4LIRP"
    ]
   },
@@ -84,7 +84,6 @@
    "first_author": "chembessi",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
     "UEVTY3Q4"
    ]
   },
@@ -96,8 +95,7 @@
    "first_author": "",
    "type": "journalArticle",
    "collections": [
-    "EI5UPQRG",
-    "I9JZQAIQ"
+    "EI5UPQRG"
    ]
   },
   "WYHKI48T": {
@@ -108,8 +106,7 @@
    "first_author": "",
    "type": "journalArticle",
    "collections": [
-    "EXLZ92RP",
-    "I9JZQAIQ"
+    "EXLZ92RP"
    ]
   },
   "N9UCURTD": {
@@ -120,7 +117,6 @@
    "first_author": "",
    "type": "webpage",
    "collections": [
-    "I9JZQAIQ",
     "TWPQES26"
    ]
   },
@@ -133,7 +129,6 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -146,7 +141,7 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
+    "RL3Z97Q5",
     "XM5C6R6Q"
    ]
   },
@@ -159,7 +154,6 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -172,7 +166,6 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -185,7 +178,7 @@
    "type": "book",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
+    "GIDUN83W",
     "XM5C6R6Q"
    ]
   },
@@ -199,7 +192,6 @@
    "collections": [
     "5M383MXT",
     "EXLZ92RP",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -212,7 +204,7 @@
    "type": "report",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ"
+    "XMYYFRKK"
    ]
   },
   "CXT6GLWB": {
@@ -223,8 +215,9 @@
    "first_author": "george",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
-    "R9M4LIRP"
+    "4ZZXY4XT",
+    "R9M4LIRP",
+    "RL3Z97Q5"
    ]
   },
   "PHP3ZZDK": {
@@ -236,7 +229,7 @@
    "type": "report",
    "collections": [
     "EXLZ92RP",
-    "I9JZQAIQ"
+    "XMYYFRKK"
    ]
   },
   "HD9UZ2M9": {
@@ -247,7 +240,7 @@
    "first_author": "george",
    "type": "book",
    "collections": [
-    "I9JZQAIQ",
+    "CG8C529H",
     "R9M4LIRP"
    ]
   },
@@ -258,9 +251,7 @@
    "year": null,
    "first_author": "",
    "type": "book",
-   "collections": [
-    "I9JZQAIQ"
-   ]
+   "collections": []
   },
   "CZ4I5TB9": {
    "doi": "10.1145/2601248.2601268",
@@ -270,7 +261,7 @@
    "first_author": "wohlin",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
+    "CG8C529H",
     "IHMG5LTH"
    ]
   },
@@ -282,7 +273,6 @@
    "first_author": "",
    "type": "webpage",
    "collections": [
-    "I9JZQAIQ",
     "UEVTY3Q4"
    ]
   },
@@ -294,8 +284,7 @@
    "first_author": "ordening",
    "type": "report",
    "collections": [
-    "5M383MXT",
-    "I9JZQAIQ"
+    "5M383MXT"
    ]
   },
   "2H5HKWNE": {
@@ -307,7 +296,6 @@
    "type": "report",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "IHMG5LTH"
    ]
   },
@@ -318,9 +306,7 @@
    "year": null,
    "first_author": "",
    "type": "book",
-   "collections": [
-    "I9JZQAIQ"
-   ]
+   "collections": []
   },
   "XDKTA8N5": {
    "doi": "",
@@ -329,9 +315,7 @@
    "year": null,
    "first_author": "",
    "type": "book",
-   "collections": [
-    "I9JZQAIQ"
-   ]
+   "collections": []
   },
   "9KPIQKNJ": {
    "doi": "10.1007/s11747-017-0563-4",
@@ -341,7 +325,6 @@
    "first_author": "palmatier",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
     "R9M4LIRP"
    ]
   },
@@ -353,8 +336,7 @@
    "first_author": "girard",
    "type": "bookSection",
    "collections": [
-    "EI5UPQRG",
-    "I9JZQAIQ"
+    "EI5UPQRG"
    ]
   },
   "5GDDSKMJ": {
@@ -366,8 +348,7 @@
    "type": "bookSection",
    "collections": [
     "EI5UPQRG",
-    "EXLZ92RP",
-    "I9JZQAIQ"
+    "EXLZ92RP"
    ]
   },
   "D4KATUYK": {
@@ -378,8 +359,7 @@
    "first_author": "girard",
    "type": "bookSection",
    "collections": [
-    "EXLZ92RP",
-    "I9JZQAIQ"
+    "EXLZ92RP"
    ]
   },
   "8FA8MJPD": {
@@ -391,8 +371,7 @@
    "type": "bookSection",
    "collections": [
     "EI5UPQRG",
-    "EXLZ92RP",
-    "I9JZQAIQ"
+    "EXLZ92RP"
    ]
   },
   "7B6EVQZJ": {
@@ -404,8 +383,7 @@
    "type": "journalArticle",
    "collections": [
     "EI5UPQRG",
-    "EXLZ92RP",
-    "I9JZQAIQ"
+    "EXLZ92RP"
    ]
   },
   "VWRBT665": {
@@ -429,8 +407,7 @@
    "first_author": "berghe",
    "type": "report",
    "collections": [
-    "EXLZ92RP",
-    "I9JZQAIQ"
+    "EXLZ92RP"
    ]
   },
   "86FVWJUZ": {
@@ -440,9 +417,7 @@
    "year": 2016,
    "first_author": "ball",
    "type": "bookSection",
-   "collections": [
-    "I9JZQAIQ"
-   ]
+   "collections": []
   },
   "MZNWHZC4": {
    "doi": "",
@@ -451,9 +426,7 @@
    "year": null,
    "first_author": "",
    "type": "document",
-   "collections": [
-    "I9JZQAIQ"
-   ]
+   "collections": []
   },
   "MHRQ9ZJZ": {
    "doi": "",
@@ -462,9 +435,7 @@
    "year": null,
    "first_author": "",
    "type": "journalArticle",
-   "collections": [
-    "I9JZQAIQ"
-   ]
+   "collections": []
   },
   "9FZZY2FD": {
    "doi": "10.1016/s2542-5196(17)30028-1",
@@ -476,7 +447,6 @@
    "collections": [
     "5M383MXT",
     "EXLZ92RP",
-    "I9JZQAIQ",
     "IHMG5LTH",
     "XM5C6R6Q"
    ]
@@ -490,7 +460,6 @@
    "type": "book",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -503,7 +472,6 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -515,7 +483,6 @@
    "first_author": "",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -527,8 +494,8 @@
    "first_author": "stahel",
    "type": "journalArticle",
    "collections": [
+    "4ZZXY4XT",
     "5M383MXT",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -541,8 +508,8 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
+    "CG8C529H",
     "EXLZ92RP",
-    "I9JZQAIQ",
     "R9M4LIRP",
     "XM5C6R6Q"
    ]
@@ -557,7 +524,7 @@
    "collections": [
     "5M383MXT",
     "EXLZ92RP",
-    "I9JZQAIQ",
+    "GIDUN83W",
     "UEVTY3Q4",
     "XM5C6R6Q"
    ]
@@ -571,7 +538,6 @@
    "type": "journalArticle",
    "collections": [
     "EXLZ92RP",
-    "I9JZQAIQ",
     "R9M4LIRP",
     "XM5C6R6Q"
    ]
@@ -584,7 +550,6 @@
    "first_author": "dubois",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
     "R9M4LIRP",
     "XM5C6R6Q"
    ]
@@ -598,9 +563,9 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "R9M4LIRP",
-    "XM5C6R6Q"
+    "XM5C6R6Q",
+    "XMYYFRKK"
    ]
   },
   "I9KG65MM": {
@@ -612,7 +577,7 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
+    "AP4ZTQHG",
     "IHMG5LTH",
     "UEVTY3Q4",
     "XM5C6R6Q"
@@ -626,7 +591,7 @@
    "first_author": "arnstein",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
+    "CG8C529H",
     "R9M4LIRP",
     "XM5C6R6Q"
    ]
@@ -657,7 +622,6 @@
    "type": "journalArticle",
    "collections": [
     "5M383MXT",
-    "I9JZQAIQ",
     "R9M4LIRP",
     "XM5C6R6Q"
    ]
@@ -670,7 +634,6 @@
    "first_author": "oomen",
    "type": "journalArticle",
    "collections": [
-    "I9JZQAIQ",
     "R9M4LIRP",
     "XM5C6R6Q"
    ]
@@ -684,7 +647,6 @@
    "type": "report",
    "collections": [
     "EXLZ92RP",
-    "I9JZQAIQ",
     "XM5C6R6Q"
    ]
   },
@@ -7122,6 +7084,135 @@
     "22RKQVAD",
     "6ZV6W6ML",
     "TWPQES26"
+   ]
+  },
+  "J3WBCBF4": {
+   "doi": "10.1016/j.eist.2017.03.002",
+   "title": "Circular Cities: Mapping Six Cities in Transition",
+   "t": "circular cities mapping six cities transition",
+   "year": 2018,
+   "first_author": "prendeville",
+   "type": "journalArticle",
+   "collections": [
+    "4ZZXY4XT",
+    "I9JZQAIQ"
+   ]
+  },
+  "9G2HZENB": {
+   "doi": "10.1111/jiec.12598",
+   "title": "Coming Full Circle: Why Social and Institutional Dimensions Matter for the Circular Economy",
+   "t": "coming full circle why social institutional dimensions matter circular economy",
+   "year": 2017,
+   "first_author": "moreau",
+   "type": "journalArticle",
+   "collections": [
+    "I9JZQAIQ",
+    "XMYYFRKK"
+   ]
+  },
+  "UMPURZKG": {
+   "doi": "10.3390/su11226253",
+   "title": "Moving Towards the Circular Economy/City Model: Which Tools for Operationalizing This Model?",
+   "t": "moving circular economy city model which tools operationalizing model",
+   "year": 2019,
+   "first_author": "girard",
+   "type": "journalArticle",
+   "collections": [
+    "4ZZXY4XT",
+    "I9JZQAIQ"
+   ]
+  },
+  "G6LQGH5I": {
+   "doi": "10.14361/dak-2026-1211",
+   "title": "Climate Land Trust: Designing Relational Pathways for Circular Urban Transformation",
+   "t": "climate land trust designing relational pathways circular urban transformation",
+   "year": 2026,
+   "first_author": "karrasch",
+   "type": "journalArticle",
+   "collections": [
+    "I9JZQAIQ",
+    "YGVUQ7J5"
+   ]
+  },
+  "SN7SZXJU": {
+   "doi": "10.14361/dak-2026-1207",
+   "title": "From Conflict to Continuity: Circular Strategies for Transformative Urban Renewal",
+   "t": "conflict continuity circular strategies transformative urban renewal",
+   "year": 2026,
+   "first_author": "scaffidi",
+   "type": "journalArticle",
+   "collections": [
+    "I9JZQAIQ"
+   ]
+  },
+  "337IS6MW": {
+   "doi": "10.32782/infrastruct91-24",
+   "title": "ЦИРКУЛЯРНА ВІДБУДОВА ТЕРИТОРІАЛЬНИХ ГРОМАД: ВЕРИФІКОВАНІ ПРАКТИКИ ТА ПРАКТИЧНИЙ ІНСТРУМЕНТАРІЙ МУНІЦИПАЛЬНОГО УПРАВЛІННЯ",
+   "t": "",
+   "year": 2026,
+   "first_author": "",
+   "type": "journalArticle",
+   "collections": [
+    "I9JZQAIQ"
+   ]
+  },
+  "PMGPQBRE": {
+   "doi": "10.1002/bse.71607",
+   "title": "The Circular Economy—A New Resilience Paradigm?",
+   "t": "circular economya new resilience paradigm",
+   "year": 2026,
+   "first_author": "kirchherr",
+   "type": "journalArticle",
+   "collections": [
+    "4ZZXY4XT",
+    "I9JZQAIQ"
+   ]
+  },
+  "UX52E6TT": {
+   "doi": "10.1177/00420980261499471",
+   "title": "Planning for circular urban metabolism: Intertwining skills and spatial transformation for manufacturing transition in Padua and Venice, Italy",
+   "t": "planning circular urban metabolism intertwining skills spatial transformation manufacturing transition padua venice italy",
+   "year": 2026,
+   "first_author": "faraone",
+   "type": "journalArticle",
+   "collections": [
+    "93EHK4P9",
+    "I9JZQAIQ"
+   ]
+  },
+  "HX6IQWJP": {
+   "doi": "10.1177/09697764261478014",
+   "title": "Re-weaving threads for a circular economy: Spatio-temporal dynamics of the textile and clothing sector in Rotterdam",
+   "t": "re weaving threads circular economy spatio temporal dynamics textile clothing sector rotterdam",
+   "year": 2026,
+   "first_author": "rezikalla",
+   "type": "journalArticle",
+   "collections": [
+    "I9JZQAIQ"
+   ]
+  },
+  "MELV6S4T": {
+   "doi": "10.55845/xg2e1d17",
+   "title": "A Planning and Decision-Making Tool for Circular Construction and Demolition Projects in Cities",
+   "t": "planning decision making tool circular construction demolition projects cities",
+   "year": 2026,
+   "first_author": "buchard",
+   "type": "journalArticle",
+   "collections": [
+    "93EHK4P9",
+    "I9JZQAIQ"
+   ]
+  },
+  "U2BKPK3D": {
+   "doi": "10.1177/09697764261496822",
+   "title": "Governing urban circular economy transitions: A mechanism-informed heuristic for local government",
+   "t": "governing urban circular economy transitions mechanism informed heuristic local government",
+   "year": 2026,
+   "first_author": "vogel",
+   "type": "journalArticle",
+   "collections": [
+    "I9JZQAIQ",
+    "XMYYFRKK"
    ]
   }
  }
